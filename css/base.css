@@ -131,7 +131,8 @@ s, i, em{
         margin-left: 10px;
     }
         /*小三角 start  给右侧的 和 左侧arrow-down 使用， 因为右侧的是先做的， 所以就没有整合 在一起 TODO */
-    .site-nav-send i:last-child,.arrow-down i{
+    .site-nav-send i:last-child,
+    .arrow-down i{
         position: absolute;
         top: 12px;
         right: 6px;
@@ -139,10 +140,11 @@ s, i, em{
         height: 9px;
         overflow: hidden;
     }
-    .site-nav-send s,.arrow-down s {
+    .site-nav-send s,
+    .arrow-down s {
         position: absolute;
-        top:-5px;
-        font: 400 30px/15px "consolas";
+        top:-6px;
+        font: 400 20px/15px "consolas";
     }
         /*小三角 over*/
 
@@ -170,8 +172,34 @@ s, i, em{
     .arrow-down:hover {
         background: #fff;
     }
-    .site-nav-right-wrap li span{
-        color: red;
-    }
+
+        /*平时不显示的东西*/
+    /*.site-nav-city{*/
+        /*display: none;*/
+    /*}*/
 
     /*<!--网站导航 site-nav over-->*/
+
+
+    /*<!--网站条幅 start （圣诞必买！！）-->*/
+    .top-banner {
+        background-color: #103927;
+    }
+    .top-banner .w{
+        position: relative;
+    }
+    .close-banner {
+        position: absolute;
+        right:-3px;
+        top: 7px;
+        width:20px;
+        height:20px;
+        background: url("../img/across-close-banner.png") no-repeat;
+    }
+    /*<!--网站条幅 stop （圣诞必买！！）-->*/
+
+    /*<!--搜索栏 start -->*/
+    .search-log {
+
+    }
+    /*<!--搜索栏 end -->*/
