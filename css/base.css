@@ -1,0 +1,177 @@
+@charset "UTF-8";
+/***************************还原 无装饰***********************/
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, del, em, img, i, ol, ul, li, form{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent; /*背景透明*/
+}
+img, input, button {
+    border:none;
+    padding: 0;
+    margin:0;
+    outline-style: none; /*属性用于设置元素的整个轮廓的样式*/
+}
+ul,ol,li{
+    list-style-type: none;
+}
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "SimSun", "宋体"; /*都是宋体*/
+}
+select, input{
+    vertical-align: middle;
+}
+select, input, textarea{
+    font-size: 12px;
+    margin:0;
+}
+textarea {
+    resize: none;
+}
+img{
+    border:0;
+    vertical-align: middle;
+    /*去缝隙*/
+}
+
+body{
+    font: 12px Arial,Verdana; /* 都是宋体 */
+    color: #666;
+    background: #fff;
+}
+
+/*取消浮动*/
+.clearfix:before, .clearfix:after{
+    content: "";
+    display: table;
+}
+.clearfix:after{
+    clear: both;
+}
+
+
+
+a {
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    color: #6c6c6c;
+}
+a:hover{
+    color: orange;
+    transition: color 0.2s ease-in-out 0s;
+    /*transition ： [
+    <'transition-property'> ||
+    <'transition-duration'> ||
+    <'transition-timing-function'> ||
+    <'transition-delay'>
+    [, [<'transition-property'> || <'transition-duration'> || <'transition-timing-function'> || <'transition-delay'>]]**/
+
+}
+h1,h2,h3,h4,h5,h6{
+    text-decoration: none;
+    font-weight:normal;
+    font-size:100%;
+}
+s, i, em{
+    font-style: normal;
+    text-decoration: none;
+}
+
+/*????? 不晓得干啥的*/
+.col-red{
+    color: #c81623 !important;
+}
+/************************** 还原 无装饰 over **************************/
+
+/*公共类*/
+.w {
+    /*版心*/
+    width: 1200px;
+    margin: 0 auto;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+/*.al {*/
+    /*text-align: left;*/
+/*}*/
+/*.ac {*/
+    /*text-align: center;*/
+/*}*/
+/*.ar {*/
+    /*text-align: right;*/
+/*}*/
+/*.hide {*/
+    /*display: none;*/
+/*}*/
+
+    /*<!--网站导航 site-nav start-->*/
+        /*左侧 start*/
+    .site-nav {
+        background-color: #f1f1f1;
+        height: 30px;
+        line-height: 30px; /*让文件变大，就可以让字符居中*/
+    }
+    .site-nav-send {
+        position: relative;
+        padding-right: 30px;
+        padding-left:10px;
+        margin-left: 10px;
+    }
+        /*小三角 start  给右侧的 和 左侧arrow-down 使用， 因为右侧的是先做的， 所以就没有整合 在一起 TODO */
+    .site-nav-send i:last-child,.arrow-down i{
+        position: absolute;
+        top: 12px;
+        right: 6px;
+        width: 17px;
+        height: 9px;
+        overflow: hidden;
+    }
+    .site-nav-send s,.arrow-down s {
+        position: absolute;
+        top:-5px;
+        font: 400 30px/15px "consolas";
+    }
+        /*小三角 over*/
+
+    .site-nav-send:hover {
+        background-color: white;
+    }
+    
+        /*右侧 start*/
+    .site-nav .site-nav-right-wrap li{
+        position: relative;
+        float: left;
+        padding: 0px 12px;
+    }
+    .site-nav .site-nav-right-wrap .arrow-down{
+        padding-right: 25px;
+    }
+        /*中间的间隔*/
+    .site-nav .site-nav-right-wrap .line{
+        width: 1px;
+        padding:0px;
+        height: 12px;
+        background: #DDD;
+        margin-top: 8px;
+    }
+    .arrow-down:hover {
+        background: #fff;
+    }
+    .site-nav-right-wrap li span{
+        color: red;
+    }
+
+    /*<!--网站导航 site-nav over-->*/
