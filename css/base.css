@@ -60,10 +60,10 @@ a {
     margin:0;
     padding:0;
     text-decoration: none;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
-    color: #6c6c6c;
+    /*font-size:100%;*/
+    /*vertical-align:baseline;*/
+    /*background:transparent;*/
+    color: #999;
 }
 a:hover{
     color: orange;
@@ -85,7 +85,6 @@ s, i, em{
     font-style: normal;
     text-decoration: none;
 }
-
 /*????? 不晓得干啥的*/
 .col-red{
     color: #c81623 !important;
@@ -123,6 +122,8 @@ s, i, em{
         background-color: #f1f1f1;
         height: 30px;
         line-height: 30px; /*让文件变大，就可以让字符居中*/
+        font-family: "verdana,simsun";
+        color: #999 !important;
     }
     .site-nav-send {
         position: relative;
@@ -200,6 +201,101 @@ s, i, em{
 
     /*<!--搜索栏 start -->*/
     .search-log {
-
+        width: 362px;
+        height: 60px;
+        padding: 20px 0;
+        float:left;
     }
+    .search-log a{
+        display: block;
+        width: 270px;
+        height: 60px;
+        text-indent: -9999em; /*隐藏文字  不能太大*/
+        background: url("../img/京东全球售LOG.png") no-repeat;
+    }
+    .search-input {
+        float: left;
+        /*width:538px;*/
+        height:36px;
+        float: left;
+        /*background: blue;*/
+        padding-top: 25px;
+    }
+    .search-input input {
+        float: left;
+        width: 350px;
+        height: 32px;
+        border: 2px solid #C91623;
+        border-right:0;
+        padding-left: 4px;
+        color: #666;
+        font-size: 14px ;
+        line-height: 32px;
+        margin-left: 90px;
+    }
+    .search-input button{
+        width: 82px;
+        height: 36px;
+        background-color: #C91623;
+        color:#fff;
+        font-size: 16px;
+        line-height: 32px;
+        font-family: tahoma,arial,Microsoft YaHei,Hiragino Sans GB,"\u5b8b\u4f53",sans-serif;
+        cursor: pointer; /*模拟鼠标 小手*/
+    }
+
+    .search-car {
+        float: left;
+        width: 139px;
+        height: 34px;
+        border: 1px solid #DFDFDF;
+        margin:25px 80px 0 30px;
+        line-height: 34px;
+        text-align: center;
+        position: relative;
+        background: #F9F9F9;
+    }
+    .search-car a{
+        display: inline-block;
+        text-indent: -33px;
+        color: #F30213;
+    }
+    .search-car .icon1 {
+        background-color: red;
+        position: absolute;
+        right:17px;
+        top:5px;
+        display: inline-block;
+        width:14px;
+        height:14px;
+        border-radius: 14px;
+        font: 12px/12px "sans-serif";
+        color: white;
+        vertical-align: baseline;
+    }
+    .search-car .icon3 {
+        color: red;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        top:11px;
+        right:33px;
+    }
+    .search-moreAlink {
+        float: left;
+        width: 530px;
+        height: 28px;
+        /*background: palevioletred;*/
+        margin-left: 90px;
+    }
+    .search-moreAlink li{
+        float: left;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+    /*.search-moreAlink a{*/
+        /*color: #000;*/
+    /*}*/
+
+
     /*<!--搜索栏 end -->*/
