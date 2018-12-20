@@ -631,7 +631,7 @@ s, i, em{
 
         /*轮播图 START*/
     .main-global-slider {
-        z-index: -10;
+        z-index: -1;
         position: relative;
         width:100%;
         height: 442px;
@@ -644,8 +644,6 @@ s, i, em{
         bottom: 20px;
         left: 50%;
         right:50%;
-
-        z-index:1;
         margin-left: -73px;
         font-size: 0;
         padding: 5px 2px;
@@ -689,3 +687,96 @@ s, i, em{
         line-height: 36px;
     }
 /*<!--秒杀 end -->*/
+
+
+/*<!--可以秒杀的商品 start-->*/
+    .slide-content {
+        float: left;
+        height: 254px;
+        background: #000;
+        width: 1000px;
+        position:relative;
+    }
+    .miaosha-ad {
+        float: right;
+        width: 200px;
+    }
+        /*两个按钮*/
+    .slide-content-btn-right , .slide-content-btn-left{
+        position: absolute;
+        top: 50%;
+        z-index: 10;
+        display: block;
+        margin-top: -25px;
+        padding: 0 2px;
+        width: 26px;
+        height: 40px;
+        background: #ccc;
+        color: #fff;
+        vertical-align: middle;
+        text-align: center;
+        font: 30px/40px SimSun;
+    }
+    .slide-content-btn-right {
+        left:0px;
+    }
+    .slide-content-btn-left {
+        right:0px;
+    }
+    .slide-content-btn-right:hover, .slide-content-btn-left:hover {
+        background: #666;
+        color: #ffffff !important;
+    }
+
+    .slide-content-items {
+        overflow: hidden;
+    }
+    .slide-content-items li {
+        float: left;
+        width: 200px;
+        height: 254px;
+        background: #fff;
+    }
+    .slide-content-items li img {
+        width: 106px;
+        height: 106px;
+        background: #fff;
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 35px;
+        transition: all .4s ease;  /*鼠标 移动进来和出去 都回缓慢切换*/
+    }
+    .slide-content-items li a {
+        display: block;
+        margin-top: 27px;
+        padding-right: 23px;
+        padding-left: 23px;
+    }
+    .slide-content-items li .product-name {
+        display: block;
+        overflow: hidden;
+        -webkit-box-orient: vertical;
+        width: 154px;
+        height: 35px;
+        text-align: center;
+        text-overflow: ellipsis;
+        font-size: 12px;
+    }
+    .slide-content-items li .cur-price {
+        color: #f10215;
+        font-size: 18px;
+    }
+    .slide-content-items li .del-price {
+        float: right;
+        color: #999;
+        font-size: 12px;
+    }
+    .slide-content-items li .product-price {
+        padding-top: 14px;
+    }
+    .slide-content-items li:hover img{
+        transform: translateY(-5px);
+    }
+
+/*<!--可以秒杀的商品 end-->*/
+
