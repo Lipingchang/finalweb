@@ -42,7 +42,8 @@ img{
 body{
     font: 12px Arial,Verdana; /* 都是宋体 */
     color: #666;
-    background: #fff;
+    background: #F6F6F6;
+;
 }
 
 /*取消浮动*/
@@ -188,10 +189,11 @@ s, i, em{
     }
     .top-banner .w{
         position: relative;
+        overflow: hidden;
     }
     .close-banner {
         position: absolute;
-        right:-3px;
+        right:4px;
         top: 7px;
         width:20px;
         height:20px;
@@ -200,10 +202,13 @@ s, i, em{
     /*<!--网站条幅 stop （圣诞必买！！）-->*/
 
     /*<!--搜索栏 start -->*/
+    .search , .shortcut-nav{
+        background: white;
+    }
     .search-log {
         width: 362px;
         height: 60px;
-        padding: 20px 0;
+        padding: 25px 0px 10px 0;
         float:left;
     }
     .search-log a{
@@ -473,7 +478,7 @@ s, i, em{
     .shortcut-nav-menu i, .shortcut-nav-menu span{
         padding:5px 0px 5px 10px;
         vertical-align: middle;
-        font-size:19px;
+        font-size:14px;
         line-height:27px;
     }
     .shortcut-nav-menu-items {
@@ -482,6 +487,10 @@ s, i, em{
         background: rgba(255,255,255,0.9);
         /*border: 1px solid #000;*/
         position: absolute;
+    }
+    .shortcut-nav-menu-items li a{
+        color: #000;
+        font-size: 14px;
     }
     .shortcut-nav-menu-items div{
         height: 36px;
@@ -540,6 +549,7 @@ s, i, em{
         width: 216px ;
         height: 442px;
         background: white;
+        box-shadow: 0 1px 15px 0 rgba(66,66,66,.26);
     }
     .main-online-customer-server {
         position: absolute;
@@ -694,7 +704,7 @@ s, i, em{
         float: left;
         height: 254px;
         background: #000;
-        width: 1000px;
+        width: 996px;
         position:relative;
         overflow: hidden;
     }
@@ -706,6 +716,7 @@ s, i, em{
     .miaosha-ad {
         float: right;
         width: 200px;
+        overflow: hidden;
     }
         /*两个按钮*/
     .slide-content-btn-right , .slide-content-btn-left{
@@ -785,4 +796,273 @@ s, i, em{
     }
 
 /*<!--可以秒杀的商品 end-->*/
+
+/*本周大牌 start*/
+    .dapai-title h3{
+        padding-left: 10px;
+        height: 52px;
+        color: rgb(51, 51, 51);
+        font-size: 24px;
+        line-height: 52px;
+        font-weight: 900;
+    }
+    .dapai-title span{
+        padding-left: 10px;
+        color: #666;
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    /*.dapai-body {*/
+        /*background: blue;*/
+    /*}*/
+    .dapai-body-big-left {
+        float: left;
+        margin-right: 25px;
+        width: 390px;
+        height: 436px;
+        overflow: hidden;  /*是div里面的img左移动*! 所以在img移出去的时候 要把它多出来的部分隐藏掉*/
+    }
+    .dapai-body a{
+        /*包裹 img*/
+        display: block;
+    }
+    .dapai-body-big-left img {
+        transition: all 1s;
+    }
+
+
+    .dapai-body li{
+        float: left;
+        width: 235px;
+        height: 213px;
+        margin:0px 30px 10px 0px;
+        overflow: hidden;
+    }
+
+    .dapai-body-big-right {
+        float: right;
+        width: 254px;
+        height:436px;
+        overflow: hidden;
+    }
+
+    .dapai-body a:hover img{
+        transform: translateX(-10px);
+    }
+
+    .dapai-body img {
+        /*要加上 已经向左边移动的10px*/
+        width: calc(100% + 10px);
+        transition: all .2s linear;
+    }
+
+    /*商标展示*/
+    .dapai-brand-show {
+        margin-top: 15px;
+    }
+    .brand-list li{
+        width: 196px;
+        height:80px;
+        float: left;
+        overflow: hidden;
+        box-sizing: border-box;
+        margin: 2px 2px 0px 2px;
+        padding: 25px 50px;
+        background-color: #fff;
+    }
+    .brand-list img {
+        transition: all .2s linear;
+    }
+
+    .brand-list li:hover img{
+        transform: scale(1.05);
+    }
+/*本周大牌 over*/
+
+/*<!--特色频道 start-->*/
+    .tese-title .m-title,.m-title{  /*全局*/
+        height:70px;
+    }
+    .tese-title h3,.m-title{     /*全局*/
+        padding-left: 10px;
+        /*height: 52px;*/
+        font-size: 24px;
+        line-height: 67px;
+        font-weight: 900;
+    }
+    .tese-title span ,.m-title span{ /*全局*/
+        padding-left: 10px;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    /*特色管*/
+    .tese-body-guan-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .tese-body-guan-list>div{
+        width: 389px;
+        margin: 0px 5px;
+    }
+    .tese-body-guan-list>div>a{
+        color: #fff;
+        font-size:14px;
+    }
+    .tese-body-guan-list>div>a:hover{
+        color: #fff !important;
+    }
+    .tese-body-guan-list>div>a h4{
+        font-size: 18px;
+        font-weight: 900;
+        margin-bottom: 10px;
+    }
+    .tese-body-guan-list>div>a {
+        display: block;
+        position: relative;
+    }
+    .tese-guan-item-info {
+        position: absolute;
+        top: 30px;
+        left: 28px;
+    }
+    .tese-body-guan-list .img-look {
+        position: absolute;
+        top: 46px;
+        right: 30px;
+        padding: 6px 12px;
+        border: 1px solid #fff;
+    }
+
+    /*管下面的商品*/
+    .tese-product-item {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .tese-product-item li{
+        overflow: hidden;
+        margin-bottom: 14px;
+        width: 198px;
+        background: #fff;
+    }
+    .tese-product-item img,.biggerimg-outer{
+        width: 126px;
+        height: 126px;
+        margin: 0 auto;
+        padding: 20px 0px;
+    }
+    .biggerimg-outer {
+        overflow: hidden;
+    }
+    .p-name {
+        overflow: hidden;
+        padding: 0 12px;
+        height: 34px;
+        text-align: center;
+        font-size: 12px;
+        line-height: 16px;
+        margin-top:30px;;
+        width:80%;
+    }
+    .biggerimg {
+        width: 142px;
+        height: 142px;
+        display: block;
+        margin: 0 auto;
+        transition: all 1s;
+    }
+    .tese-product-item a:hover .biggerimg{
+        transform: scale(1.05);
+    }
+    .p-price {
+        overflow: hidden;
+        margin-bottom: 20px;
+        height: 36px;
+        color: #f10215;
+        text-align: center;
+        font-size: 18px;
+        font-family: arial;
+        line-height: 36px;
+    }
+        /*分割线...*/
+    .p-split {
+        margin-top:40px;
+        z-index: 1;
+        width: 1px;
+        height: 206px;
+        background: #e2e2e2;
+        font-size: 0;
+    }
+
+/*<!--特色频道 end-->*/
+
+/*<!--有·京品京心造物 用心生活 start -->*/
+    .youjinping-left-col {
+        float: left;
+        width: 250px;
+        height: 620px;
+        /*background: red;*/
+        margin-right:10px;
+    }
+    .youjinping-left-col-top {
+        margin-bottom: 10px;
+        width: 250px;
+        height: 460px;
+        /*background: blue;*/
+    }
+    .youjinping-left-col-bottom {
+        width: 250px;
+        height:140px;
+        /*background: blue;*/
+    }
+    .youjinping-product-items li {
+        float: left;
+        width: 225px;
+        height: 300px;
+        /*background: red;*/
+        margin: 0px 10px 10px 0px;
+    }
+    .youjinping .w{
+        /*background: black;*/
+    }
+
+/*<!--有·京品京心造物 用心生活 end -->*/
+.youjinping-product-items a:hover .biggerimg{
+    transform: scale(1.05);
+}
+.youjinping-product-items .biggerimg-outer{
+    width: 142px;
+    height: 142px;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+.youjinping-product-items li{
+    background: white;
+}
+.youjinping-bottom {
+    float: left;
+    width: calc(100% - 10px);
+    overflow: hidden;
+}
+
+/*默认图片向左边移动的样式*/
+.move2left10pxOutter {
+    overflow: hidden;
+    position: relative;
+    /*border: 1px solid #000;*/
+}
+.move2left10pxOutter a:hover .move2left10pxImage{
+    transform: translateX(-10px);
+}
+.move2left10pxImage {
+    position: absolute;
+    right: -10px;
+    top: 0px;
+    transition: all .4s ease;
+    /*border: 1px solid red;*/
+}
+/*默认图片向左边移动的样式*/
 
