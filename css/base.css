@@ -66,7 +66,7 @@ a {
     color: #999;
 }
 a:hover{
-    color: orange;
+    color: orange !important;
     transition: color 0.2s ease-in-out 0s;
     /*transition ： [
     <'transition-property'> ||
@@ -357,6 +357,10 @@ s, i, em{
         cursor: pointer;
         margin:0px;
     }
+    .footer-top-shopping dd a:hover, .footer-bottom-links div p a:hover{
+        color: orange;
+        transition: color 0.2s ease-in-out 0s;
+    }
 
     .footer-bottom .footer-bottom-links p {
         text-align: center;
@@ -450,3 +454,213 @@ s, i, em{
         text-indent: -9990px;
     }
     /*<!--footer end-->*/
+
+
+/*<!--商品分类 缩略栏 start -->*/
+    .shortcut-nav {
+        height: 36px;
+        border-bottom: 0px solid #000;
+    }
+    .shortcut-nav-menu {
+        float: left;
+    }
+    .shortcut-nav-menu-all{
+        background: #C91623;
+        width:210px;
+        height:35px;
+        color: white;
+    }
+    .shortcut-nav-menu i, .shortcut-nav-menu span{
+        padding:5px 0px 5px 10px;
+        vertical-align: middle;
+        font-size:19px;
+        line-height:27px;
+    }
+    .shortcut-nav-menu-items {
+        width: 210px;
+        height: 443px;
+        background: rgba(255,255,255,0.9);
+        /*border: 1px solid #000;*/
+        position: absolute;
+    }
+    .shortcut-nav-menu-items div{
+        height: 36px;
+        width: 143px;
+        padding-right: 30px;
+        margin: 0 18px;
+        position: relative;
+        border-top: 1px dotted #ccc;
+        overflow: hidden;
+        line-height:36px;
+    }
+    .shortcut-nav-menu-items li:first-child div {
+        border-top: 0;
+    }
+
+    .shortcut-nav-menu-items li a:after{
+        content: "";
+        position: absolute;
+        right: 15px;
+        top: 13px;
+        width: 6px;
+        height: 10px;
+        background: url("../img/icon-arrow-to-right.png") no-repeat;
+
+    }
+    .shortcut-nav-menu-items li:hover {
+        background: white;
+    }
+
+    .shortcut-nav-items {
+        height: 35px;
+    }
+    .shortcut-nav-items div {
+        display: inline-block;
+        box-sizing: border-box;
+        line-height: 37px;
+        font-size: 14px;
+        width:100px;
+        height:35px;
+        padding: 0px 22px;
+        text-align: center;
+    }
+    .shortcut-nav .shortcut-nav-items  a {
+        color: black;
+    }
+
+
+/*<!--商品分类 缩略栏 end -->*/
+
+/*<!--main start-->*/
+    .main .w{
+        position: relative;
+    }
+    .main-welcome-col1 {
+        float: right;
+        width: 216px ;
+        height: 442px;
+        background: white;
+    }
+    .main-online-customer-server {
+        position: absolute;
+        bottom: -430px;
+        right: -88px;
+        width: 74px;
+        height: 74px;
+        padding:10px;
+        background: #fff;
+        border-radius: 4px;
+        box-shadow: 0 1px 62px 0 rgba(66,66,66,.26);
+        box-sizing: border-box;
+        z-index: 9;
+        text-align: center;
+    }
+    .main-online-customer-server span{
+        text-align: center;
+        color: #000;
+    }
+    .main-online-customer-server i {
+        display: block;
+        width: 24px;
+        height: 24px;
+        background: url("../img/icon-客服.png") no-repeat;
+        margin: 0 auto;
+        margin-bottom: 7px;
+    }
+    .main-online-customer-server:hover i{
+        background: url("../img/icon-客服.png") no-repeat -24px 0px;
+    }
+    .main-online-customer-server:hover a span {
+        color: red !important;
+    }
+
+
+    /*用户 支付方式 竖着的栏*/
+    .user-info {
+        margin: 0 auto;
+        width:200px;
+        height:175px;
+    }
+    .user-login{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .user-avatar{
+        width: 50px;
+        height: 50px;
+        margin: 0 auto;
+        padding: 15px 0px;
+    }
+    .user-login .user-split {
+        margin: 0px 5px;
+    }
+    .user-guide a{
+        display: block;
+        margin: 0 auto;
+        width: 70px;
+        height: 20px;
+        border: 2px solid #c91623;
+        line-height: 20px;
+        font-size: 12px;
+        text-align: center;
+        color: #c91623;
+        padding:2px 5px;
+    }
+    .user-guide:hover a{
+        background: #c91623;
+        color: white !important;
+    }
+    .pay-img {
+        margin-bottom: 20px;
+    }
+    .main-welcome-col1-pay-guide {
+        width: 200px;
+        height: 135px;
+        margin: 0 auto;
+    }
+    .pay-body h4 {
+        margin-bottom: 5px;
+        font: 700 12px "microsoft yahei";
+        color: #666;
+        text-align: center;
+    }
+    .pay-body p {
+        padding: 0 12px;
+        color: #999;
+    }
+
+        /*轮播图 START*/
+    .main-global-slider {
+        z-index: -10;
+        position: relative;
+        width:100%;
+        height: 442px;
+        background: url("../img/global-slider1.webp") center;
+    }
+    .slider-tab-nav {
+        width:140px;
+        height:12px;
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        right:50%;
+
+        z-index:1;
+        margin-left: -73px;
+        font-size: 0;
+        padding: 5px 2px;
+        border-radius: 12px;
+        background-color: rgba(255,255,255,.5);
+    }
+    .slider-tab-nav li{
+        display: inline-block;
+        margin-left: 10px;
+        width: 12px;
+        height: 12px;
+        border-radius: 6px;
+        background-color: #fff;
+        cursor: pointer;
+    }
+        /*轮播图 OVER*/
+
+/*<!--main over-->*/
