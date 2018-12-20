@@ -696,6 +696,12 @@ s, i, em{
         background: #000;
         width: 1000px;
         position:relative;
+        overflow: hidden;
+    }
+    .slide-content ul{
+        position: absolute;
+        width: 10000px;
+        /*!*left: -100px;*!  滑动的话,就改这个!!*/
     }
     .miaosha-ad {
         float: right;
