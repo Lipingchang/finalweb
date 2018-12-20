@@ -299,3 +299,154 @@ s, i, em{
 
 
     /*<!--搜索栏 end -->*/
+
+
+
+    /*<!--footer start-->*/
+    .footer {
+        background: #EAEAEA;
+        padding-bottom: 50px;
+    }
+    .footer-top-slogen {
+        height:94px;
+    }
+    .footer-top-slogen-icon {
+        display: inline-block;
+        width: 292px;
+        height: 42px;
+        color: #444;
+        text-indent: 46px;
+        font: 700 18px/42px tahoma,arial,Microsoft YaHei,Hiragino Sans GB,"\u5b8b\u4f53",sans-serif;
+        margin: 30px 0px;
+    }
+    .footer-top-slogen-icon1 {
+        background: url("../img/多快好省.png") no-repeat  0px 0px;
+    }
+    .footer-top-slogen-icon2 {
+        background: url("../img/多快好省.png") no-repeat  0px -43px;
+    }
+    .footer-top-slogen-icon3 {
+        background: url("../img/多快好省.png") no-repeat  0px -86px;
+    }
+    .footer-top-slogen-icon4 {
+        background: url("../img/多快好省.png") no-repeat  0px -129px;
+    }
+
+    .footer-top-shopping {
+        padding: 15px 0px 15px 0px;
+        border-top:solid 1px #dedede;
+        border-bottom: solid 1px #dedede;
+        margin-bottom: 18px;
+    }
+    .footer-top-shopping dl {
+        float: left;
+        width:240px;
+    }
+    .footer-top-shopping dt {
+        padding-bottom: 6px;
+        font-weight: 700;
+        font-size: 14px;
+        color: #777;
+        height: 22px;
+    }
+    .footer-top-shopping dd ,.footer-top-shopping dd a{
+        line-height: 21px;
+        font-size: 12px;
+        color: #666;
+        text-decoration: none;
+        cursor: pointer;
+        margin:0px;
+    }
+
+    .footer-bottom .footer-bottom-links p {
+        text-align: center;
+    }
+    .footer-bottom .footer-bottom-links p a {
+        font-size: 12px;
+        color: #666;
+    }
+    .copyright_split {
+        color: #ccc;
+        margin: 0 10px;
+    }
+
+    .footer-bottom-copyright-info {
+        text-align: center;
+        padding: 10px 0px;
+        line-height: 22px;
+    }
+    .footer-bottom-copyright-info p{
+        color: #999;
+    }
+        /*国旗*/
+    .global-flag-icon-1 {  
+        background: url("../img/contry_flags.png") no-repeat;
+        width: 15px;
+        height: 12px;
+        display: inline-block;
+    }
+    .global-flag-icon-5 {
+        background: url("../img/contry_flags.png") no-repeat  -20px -16px ;
+        width: 15px;
+        height: 12px;
+        display: inline-block;
+    }
+    .global-flag-icon-2 {
+        background: url("../img/contry_flags.png") no-repeat -20px 0px;
+        width: 15px;
+        height: 12px;
+        display: inline-block;
+    }
+    .global-flag-icon-3 {
+        background: url("../img/contry_flags.png") no-repeat -40px 0px;
+        width: 15px;
+        height: 12px;
+        display: inline-block;
+    }
+    .global-flag-icon-4 {
+        background: url("../img/contry_flags.png") no-repeat  0px -16px;
+        width: 15px;
+        height: 12px;
+        display: inline-block;
+    }
+        /*网络警察*/
+    .footer-bottom-img {
+        text-align: center;
+    }
+    .copyright_auth_ico_2 {
+        background: url("../img/举报图片.png") no-repeat -103px 0px;
+        width:103px;
+        height: 32px;
+        display: inline-block;
+        text-indent: -9990px;
+    }
+
+    .copyright_auth_ico_3 {
+        background: url("../img/举报图片.png") no-repeat 0px -32px;
+        width:103px;
+        height: 32px;
+        display: inline-block;
+        text-indent: -9990px;
+    }
+    .copyright_auth_ico_4 {
+        background: url("../img/举报图片.png") no-repeat -103px -32px;
+        width:103px;
+        height: 32px;
+        display: inline-block;
+        text-indent: -9990px;
+    }
+    .copyright_auth_ico_5 {
+        background: url("../img/举报图片.png") no-repeat -0px -64px;
+        width:103px;
+        height: 32px;
+        display: inline-block;
+        text-indent: -9990px;
+    }
+    .copyright_auth_ico_6 {
+        background: url("../img/举报图片.png") no-repeat -103px -64px;
+        width:103px;
+        height: 32px;
+        display: inline-block;
+        text-indent: -9990px;
+    }
+    /*<!--footer end-->*/
