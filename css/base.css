@@ -589,11 +589,16 @@ s, i, em{
     .user-info {
         margin: 0 auto;
         width:200px;
-        height:175px;
+        height:180px;
     }
     .user-login{
         text-align: center;
         margin-bottom: 15px;
+    }
+    .user-login h1{
+        margin-bottom: 10px;
+        font: 700 14px "microsoft yahei";
+        color: #333;
     }
     .user-avatar{
         width: 50px;
@@ -1062,6 +1067,7 @@ s, i, em{
     right: -10px;
     top: 0px;
     transition: all .4s ease;
+    flex-direction: row-reverse;
     /*border: 1px solid red;*/
 }
 /*默认图片向左边移动的样式*/
