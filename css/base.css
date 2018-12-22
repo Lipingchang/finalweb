@@ -128,7 +128,7 @@ s, i, em{
     }
     .site-nav-send {
         position: relative;
-        padding-right: 30px;
+        padding-right: 20px;
         padding-left:10px;
         margin-left: 10px;
     }
@@ -176,10 +176,91 @@ s, i, em{
     }
 
         /*平时不显示的东西*/
-    /*.site-nav-city{*/
-        /*display: none;*/
+        /*城市:*/
+    .site-nav-city{
+        display: none;
+        visibility: hidden;
+    }
+    .site-nav-city .city div {
+        float: left;
+        width: 60px;
+        height: max-content;
+    }
+    .site-nav-city .city a:hover , .site-nav-city .selected{
+        background: #f30213;
+        color: #fff !important;
+    }
+    .site-nav-city .city div a {
+        display: block;
+        height: 27px;
+        width: max-content;
+        text-align: center;
+        padding: 0px 8px;
+        line-height: 28px;
+    }
+
+        /*国家站点*/
+    .areamini_inter_desc {
+        padding: 5px 0px 10px 0px;
+    }
+    .areamini_inter_split{
+        width: 262px;
+        height: 0;
+        border-bottom: dotted 1px #eee;
+        margin-top: 10px;
+    }
+    .areamini_inter {
+        margin: 10px 0 10px 10px;
+    }
+    .areamini_inter_list li {
+        float: left;
+        width: 50%;
+        line-height: 26px;
+    }
+    /*国旗*/
+    .areamini_inter_list li a div:nth-child(2){
+        display: inline-block;
+        padding-left: 5px;
+        /*width: calc(100% - 25px);*/
+        width:max-content;
+    }
+    .areamini_inter_list li a div:nth-child(1) {
+        width: 15px;
+        height: 12px;
+        display: inline-block;
+    }
+    /*.areamini_inter_list li:nth-child(1) a div:nth-child(1) {*/
+        /*background: url("../img/contry_flags.png") no-repeat;*/
+    /*}*/
+    /*.areamini_inter_list li:nth-child(2) a div:nth-child(1) {*/
+        /*background: url("../img/contry_flags.png") no-repeat  -20px -16px ;*/
+    /*}*/
+    /*.areamini_inter_list li:nth-child(3) a div:nth-child(1) {*/
+        /*background: url("../img/contry_flags.png") no-repeat -20px 0px;*/
+    /*}*/
+    /*.areamini_inter_list li:nth-child(4) a div:nth-child(1) {*/
+        /*background: url("../img/contry_flags.png") no-repeat -40px 0px;*/
+    /*}*/
+    /*.areamini_inter_list li:nth-child(5) a div:nth-child(1) {*/
+        /*background: url("../img/contry_flags.png") no-repeat  0px -16px;*/
     /*}*/
 
+
+    .site-nav-send:hover .site-nav-city{
+        display: block;
+        visibility: visible;
+        position: absolute;
+        top: 30px;
+        left:0px;
+        background: white;
+        box-sizing: border-box;
+        width: 313px;
+        height: 359px;
+        padding: 10px 0px 10px 10px;
+        z-index: 100;
+        border: 1px solid #ddd;
+        border-top: 0;
+    }
     /*<!--网站导航 site-nav over-->*/
 
 
