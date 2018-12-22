@@ -573,7 +573,72 @@ s, i, em{
 
         /*<!--搜索栏 end -->*/
 
+/*右侧的小条*/
+.right-pane .w{
+    position: relative;
+}
+#elevator {
+    z-index: 100;
+    width: 70px;
+    padding-top: 6px;
+    border-radius: 4px;
+    box-shadow: 0 1px 24px 0 rgba(181,181,181,.19);
+    text-align: center;
+    overflow: hidden;
 
+    position: fixed;
+    right: 170px;
+    top: 200px;
+    /*bottom: 150px;*/
+    display: block;
+    background: #ffffff;
+    color: #666;
+}
+#elevator .chat-box {
+    display: block;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+}
+#elevator .chat-box:hover .chat-icon {
+    background: url("../img/icon-客服.png") no-repeat -24px 0px;
+}
+#elevator .chat-box:hover {
+    color: #E33333 !important;
+}
+#elevator .chat-box {
+    color: black;
+}
+#elevator .chat-icon {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    margin-bottom: 7px;
+    background: url("../img/icon-客服.png") no-repeat 0px 0px;
+}
+
+.gotop-wrap {
+    position: relative;
+    height: 50px;
+    background: #e33333;
+    color: #fff;
+    cursor: pointer;
+    line-height:23px;
+}
+.go-top {
+    padding-top: 0px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+}
+.gotop-wrap i{
+    display: inline-block;
+    width: 17px;
+    height: 10px;
+    background: url(//misc.360buyimg.com/channel/global-sales2017/1.1.0/widget/widget-elevator/i/icon-top.png) no-repeat center center;
+}
 
     /*<!--footer start-->*/
     .footer {
