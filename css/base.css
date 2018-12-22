@@ -827,6 +827,7 @@ s, i, em{
     }
 
     .shortcut-nav-menu-items {
+        z-index: 100;
         width: 210px;
         height: 443px;
         background: rgba(255,255,255,0.9);
@@ -990,7 +991,7 @@ s, i, em{
 
 /*<!--main start-->*/
     .main .w{
-        position: relative;
+        /*position: relative;*/
     }
     .main-welcome-col1 {
         float: right;
@@ -1031,7 +1032,9 @@ s, i, em{
     .main-online-customer-server:hover a span {
         color: red !important;
     }
-
+    .slider-tab-nav .cur {
+        background: red;
+    }
 
     /*用户 支付方式 竖着的栏*/
     .user-info {
@@ -1093,13 +1096,54 @@ s, i, em{
     }
 
         /*轮播图 START*/
-    .main-global-slider {
-        z-index: -999;
-        position: relative;
+.main {
+    display: block;
+    position: relative;
+
+}
+    #main-global-slider {
+        z-index: -100;
+        /*position: relative;*/
         width:100%;
         height: 442px;
-        background: url("../img/global-slider1.webp") center;
     }
+    #main-global-slider  div:nth-child(1){
+        width: 100%;
+        height:442px;
+        transition: all 0.6s ease;  /*鼠标 移动进来和出去 都回缓慢切换*/
+
+    }
+.main-global-slider-img0 div:nth-child(1){
+    background: url("../img/global-slider1.webp") center;
+}
+.main-global-slider-img1 div:nth-child(1){
+    background: url("../img/global-slider2.webp") center;
+}
+.main-global-slider-img2 div:nth-child(1){
+    background: url("../img/global-slider3.webp") center;
+}
+.main-global-slider-img4 div:nth-child(1){
+    background: url("../img/global-slider5.webp") center;
+}
+.main-global-slider-img3 div:nth-child(1){
+    background: url("../img/global-slider4.webp") center;
+}
+.main-global-slider-img5 div:nth-child(1) {
+    background: url("../img/global-slider6.webp") center;
+}
+.main-global-slider-img5 {
+    /*animation: 1s slider5 forwards;*/
+}
+@keyframes slider5 {
+    0% {  background: url("../img/global-slider6.webp") center ;opacity: 1; }
+    10% {  background: url("../img/global-slider6.webp") center ;opacity: .7; }
+    20% {  background: url("../img/global-slider6.webp") center ;opacity: .5; }
+    /*50% { background: orange; top:-20px; }*/
+    100% {background: url("../img/global-slider6.webp") center ;opacity: 1; }
+    /*100% {display: none;}*/
+}
+
+
     .slider-tab-nav {
         width:140px;
         height:12px;

@@ -126,3 +126,21 @@ function getDec(h,m,s){
     //console.log(h,m,s);
     return [h,m,s];
 }
+
+//轮播
+let sliderbtns = document.getElementsByClassName("slider-nav-item");
+let sliderbtn_cur = 0;
+for( let i=0; i<sliderbtns.length; i++ ){
+    let btn = sliderbtns[i];
+    btn.addEventListener("mouseover",function(){
+        if( i != sliderbtn_cur ){
+            sliderbtn_cur = i;
+            let slider = document.getElementById("main-global-slider");
+            slider.setAttribute("class","main-global-slider-img"+i);
+            for( let k =0; k<sliderbtns.length; k++ ){
+                sliderbtns[k].setAttribute("class","slider-nav-item")
+            }
+            sliderbtns[i].setAttribute("class","slider-nav-item cur");
+        }
+    })
+}
