@@ -610,6 +610,17 @@ s, i, em{
 #elevator .chat-box {
     color: black;
 }
+#elevator .selected {
+    font-weight: 700;
+    color: #e33333;
+}
+.showshow {
+    display: block;
+}
+.notshowshow {
+    display: none !important;
+    visibility: hidden !important;
+}
 #elevator .chat-icon {
     display: block;
     width: 24px;
