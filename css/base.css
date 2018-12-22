@@ -328,6 +328,63 @@ s, i, em{
         padding: 5px 0px;
         color: #666;
     }
+
+        /* 巨多的 导航*/
+    .daohang .dddorpdown-layer {
+        width: 1184px;
+        height:140px;
+    }
+    .daohang:hover .dddorpdown-layer {
+        right: -74px;
+    }
+    .daohang dt {
+        font-size: 14px;
+        font-weight: 700;
+        margin-bottom: 6px;
+        color: #666;
+    }
+    .daohang .item {
+        width: 60px;
+    }
+    .daohang dl {
+        width: 280px;
+        display: inline-block;
+        vertical-align: top;
+        margin: 10px 5px;
+    }
+    .daohang dd {
+        margin: 0px;
+    }
+
+        /*手机京东*/
+    .shoujidingdong:hover .dddorpdown-layer {
+        position: absolute;
+        width:192px;
+        height: 310px;
+        display: block;
+        right: 0px;
+        background: white;
+        z-index: 100;
+        border-style: solid;
+        border-color: #e4e4e4 #e4e4e4 #fff;
+        border-bottom:4px solid #60575A;
+
+    }
+         /*下拉框的 箭头*/
+    .dd-spacer {
+        position: absolute;
+        display: block;
+        top: -9px;
+        left: 154px;
+        margin-left: -5px;
+        width: 0;
+        height: 0;
+        line-height: 0;
+        font-size: 0;
+        border-width: 5px;
+        border-style: solid;
+        border-color: #F1F1F1 #F1F1F1 #fff;
+    }
     /*<!--网站导航 site-nav over-->*/
 
 
