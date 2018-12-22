@@ -275,7 +275,59 @@ s, i, em{
         margin-left: 10px;
     }
 
+        /*企业采购*/
+    .caigou .dddorpdown-layer {
+        width: 140px;
+        height: 40px;
+    }
+    .dddorpdown-layer {
+        display: none;
+    }
+    .caigou:hover .dddorpdown-layer {
+        left: 0px;
+    }
+    .arrow-down:hover .dddorpdown-layer {
+        display: block;
+        position: absolute;
+        top: 30px;
+        /*left: 0px;*/
+        padding: 5px 0 10px 15px;
+        z-index:10;
+        background: white;
+        border: 1px solid #ddd;
+        border-top: 0px;
+        line-height: 20px;
+    }
+    .dddorpdown-layer .item{
+        display: inline-block;
+        box-sizing: border-box;
+        width: 40%;
+        overflow: hidden;
+        height: 20px;
+        margin:0px;
+        vertical-align: top;
+        /*border: 1px solid #000;*/
+        line-height:20px;
+        margin-right: 5px;;
+    }
+    .dddorpdown-layer .item a {
+        display: block;
+        line-height: 21px;
+    }
 
+        /*客户服务*/
+    .kehufuwu .dddorpdown-layer {
+        width:150px;
+        height:210px;
+    }
+    .kehufuwu:hover .dddorpdown-layer {
+        right: 0px;
+    }
+    .item-client, .item-business {
+        font-weight: 700;
+        padding: 5px 0px;
+        color: #666;
+    }
     /*<!--网站导航 site-nav over-->*/
 
 
