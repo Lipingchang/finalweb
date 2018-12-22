@@ -229,23 +229,6 @@ s, i, em{
         height: 12px;
         display: inline-block;
     }
-    /*.areamini_inter_list li:nth-child(1) a div:nth-child(1) {*/
-        /*background: url("../img/contry_flags.png") no-repeat;*/
-    /*}*/
-    /*.areamini_inter_list li:nth-child(2) a div:nth-child(1) {*/
-        /*background: url("../img/contry_flags.png") no-repeat  -20px -16px ;*/
-    /*}*/
-    /*.areamini_inter_list li:nth-child(3) a div:nth-child(1) {*/
-        /*background: url("../img/contry_flags.png") no-repeat -20px 0px;*/
-    /*}*/
-    /*.areamini_inter_list li:nth-child(4) a div:nth-child(1) {*/
-        /*background: url("../img/contry_flags.png") no-repeat -40px 0px;*/
-    /*}*/
-    /*.areamini_inter_list li:nth-child(5) a div:nth-child(1) {*/
-        /*background: url("../img/contry_flags.png") no-repeat  0px -16px;*/
-    /*}*/
-
-
     .site-nav-send:hover .site-nav-city{
         display: block;
         visibility: visible;
@@ -261,6 +244,38 @@ s, i, em{
         border: 1px solid #ddd;
         border-top: 0;
     }
+
+        /*我的京东 隐藏*/
+    .myjindong {
+        display: none;
+    }
+    .arrow-down:hover .myjindong{
+        display: block;
+        height: 134px;
+        width: 280px;
+        position: absolute;
+        z-index: 100;
+        top: 30px;
+        left: 0px;
+        background: #fff;
+        border: 1px solid #ddd;
+        border-top: 0px;
+    }
+    .myjindong> div{
+        width: 100%;
+        margin-bottom: 15px;;
+    }
+    .myjindong> div>div {
+        float: left;
+        width: 126px;
+    }
+    .myjindong .item {
+        width: 50%;
+        height: 22px;
+        margin-left: 10px;
+    }
+
+
     /*<!--网站导航 site-nav over-->*/
 
 
