@@ -88,3 +88,41 @@ for( let i = 0; i<panelList.length ; i++ ){
     } );
 }
 
+let hour = document.getElementsByClassName("hour")[0];
+let minutes = document.getElementsByClassName("minutes")[0];
+let seconds = document.getElementsByClassName("seconds")[0];
+hour.innerHTML = "24";
+minutes.innerHTML = "00";
+seconds.innerHTML = "00";
+
+setInterval(function () {
+    r = getDec(hour.innerHTML,minutes.innerHTML,seconds.innerHTML)
+    hour.innerHTML = r[0];
+    minutes.innerHTML = r[1];
+    seconds.innerHTML = r[2];
+},1000);
+
+function getDec(h,m,s){
+    let hh = parseInt(h);
+    let mm = parseInt(m);
+    let ss = parseInt(s)-1;
+
+    if( ss < 0 ){
+        ss = 59;
+        mm -= 1;
+    }
+    if( mm < 0 ){
+        mm = 59;
+        hh -= 1;
+    }
+
+    if( hh < 0 ){
+        hh = 24;
+    }
+
+    h = hh  +""; if (h.length == 1) h = '0'+h;
+    m = mm + ""; if( m.length == 1) m = '0'+m;
+    s = ss + "";if( s.length == 1) s = '0'+s;
+    //console.log(h,m,s);
+    return [h,m,s];
+}
