@@ -507,8 +507,71 @@ s, i, em{
         /*color: #000;*/
     /*}*/
 
+    #topsearch {
+        position: fixed;
+        z-index: 999;
+        width: 100%;
+        height:70px;
+        background: white;
+        box-shadow: 0 2px 3px rgba(0,0,0,.2);
+    }
+    .topsearch-fix {
+        animation: 1s godown forwards;
+    }
+    .topsearch-fix-up {
+        animation: 1s goup forwards;
+    }
+    @keyframes godown {
+        0% { top:-110px; }
+        /*50% { background: orange; top:-20px; }*/
+        100% {top:0px; position: fixed }
+        /*100% {display: none;}*/
+    }
+    @keyframes goup {
+        0% {top:0px; position: fixed  }
+        90% {top:-110px; }
+        /*50% { background: orange; top:-20px; }*/
+        100% {top:-110px; visibility: hidden; }
+    }
 
-    /*<!--搜索栏 end -->*/
+.search-input2 {
+    /*width:538px;*/
+    height:36px;
+    /*background: blue;*/
+    padding-top: 20px;
+}
+.search-input2 input {
+    float: left;
+    width: 458px;
+    height: 32px;
+    border: 2px solid #C91623;
+    border-right:0;
+    padding-left: 4px;
+    color: #666;
+    font-size: 14px ;
+    line-height: 32px;
+    margin-left:-60px;
+}
+.search-input2 button{
+    width: 82px;
+    height: 36px;
+    background-color: #C91623;
+    color:#fff;
+    font-size: 16px;
+    line-height: 32px;
+    font-family: tahoma,arial,Microsoft YaHei,Hiragino Sans GB,"\u5b8b\u4f53",sans-serif;
+    cursor: pointer; /*模拟鼠标 小手*/
+}
+#topsearch .search-log {
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+#topsearch a {
+    margin: 0px;
+}
+
+
+        /*<!--搜索栏 end -->*/
 
 
 
