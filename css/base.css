@@ -579,7 +579,7 @@ s, i, em{
 }
 #elevator {
     z-index: 100;
-    width: 70px;
+    width: 80px;
     padding-top: 6px;
     border-radius: 4px;
     box-shadow: 0 1px 24px 0 rgba(181,181,181,.19);
@@ -596,7 +596,7 @@ s, i, em{
 }
 #elevator .chat-box {
     display: block;
-    width: 50px;
+    width: 60px;
     height: 50px;
     padding: 10px;
     text-align: center;
@@ -1466,7 +1466,7 @@ s, i, em{
         line-height: 18px;
         width:80%;
         margin:0 auto;
-        margin-top:30px;;
+        margin-top:30px;
     }
     .biggerimg {
         width: 142px;
@@ -1662,7 +1662,8 @@ s, i, em{
     width: 79px;
     height:30px;
 }
-.moreproduct-nav .current, .moreproduct-nav>ul>li:hover{
+/*.moreproduct-nav>ul>li:hover*/
+.moreproduct-nav .current{
     border-bottom: 5px solid #c91623;
     color: #c91623;
     font-weight: 700;
@@ -1694,7 +1695,7 @@ s, i, em{
     padding:0px;
     color: #666;
     position: absolute;
-    bottom:-67px;
+    bottom:-60px;
     /*left: -100px;*/
     right:0px;
     box-shadow: 5px 5px 20px -2px  #888888;

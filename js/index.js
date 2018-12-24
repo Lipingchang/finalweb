@@ -150,17 +150,36 @@ let minleft = -(document.getElementById("slide-content-items").childElementCount
 let maxleft = 0;
 document.getElementById("slide-content-items").style.left = maxleft + "px";
 
-document.getElementById("slide-content-btn-right").addEventListener("click", function () {
+document.getElementById("slide-content-btn-left").addEventListener("click", function () {
     let left = parseInt( document.getElementById("slide-content-items").style.left ) || 0;
     console.log(left);
     left = (left - 200 > minleft)? (left-200): minleft;
     console.log(left);
     document.getElementById("slide-content-items").style.left = left+"px";
 })
-document.getElementById("slide-content-btn-left").addEventListener("click", function () {
+document.getElementById("slide-content-btn-right").addEventListener("click", function () {
     let left = parseInt( document.getElementById("slide-content-items").style.left ) || 0;
     console.log(left);
     left = (left + 200 <maxleft ) ? (left+200): 0;
     console.log(left);
     document.getElementById("slide-content-items").style.left = left+"px";
 })
+
+//跟多商品：
+let items = document.getElementsByClassName("moreproduct-nav-true-item");
+for ( let i = 0; i < items.length; i++ ){
+    items[i].addEventListener("mouseover", function () {
+        console.log(i);
+        clearMoreProduct();
+        items[i].classList.add("current");
+    })
+}
+function clearMoreProduct(pass){
+    for(  let i = 0; i < items.length; i++  ){
+        if( i == pass )
+            continue;
+        if( items[i].classList.contains("current") ){
+            items[i].classList.remove("current");
+        }
+    }
+}
