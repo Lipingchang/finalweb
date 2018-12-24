@@ -1245,6 +1245,9 @@ s, i, em{
     .slide-content-items {
         overflow: hidden;
     }
+    #slide-content-items{
+        transition: all 1s ease;  /*鼠标 移动进来和出去 都回缓慢切换*/
+    }
     .slide-content-items li {
         float: left;
         width: 200px;

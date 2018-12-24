@@ -144,3 +144,23 @@ for( let i=0; i<sliderbtns.length; i++ ){
         }
     })
 }
+
+//秒杀的 滑动栏：
+let minleft = -(document.getElementById("slide-content-items").childElementCount - 5) * 200;
+let maxleft = 0;
+document.getElementById("slide-content-items").style.left = maxleft + "px";
+
+document.getElementById("slide-content-btn-right").addEventListener("click", function () {
+    let left = parseInt( document.getElementById("slide-content-items").style.left ) || 0;
+    console.log(left);
+    left = (left - 200 > minleft)? (left-200): minleft;
+    console.log(left);
+    document.getElementById("slide-content-items").style.left = left+"px";
+})
+document.getElementById("slide-content-btn-left").addEventListener("click", function () {
+    let left = parseInt( document.getElementById("slide-content-items").style.left ) || 0;
+    console.log(left);
+    left = (left + 200 <maxleft ) ? (left+200): 0;
+    console.log(left);
+    document.getElementById("slide-content-items").style.left = left+"px";
+})
