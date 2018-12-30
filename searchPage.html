@@ -2,16 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>book电子书 - 商品搜索 - 京东</title>
     <link rel="stylesheet" type="text/css" href="./css/searchPage.css">
     <link rel="stylesheet" type="text/css" href="./css/base.css">
     <link rel="icon" href="img/favicon.ico">
     <link rel="stylesheet" type="text/css" href="./css/all.css" />
+    <link rel="stylesheet" type="text/css" href="./css/searchPage.css"/>
     <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">-->
-
+    <!--https://search.jd.com/Search?keyword=book%E7%94%B5%E5%AD%90%E4%B9%A6&enc=utf-8&suggest=3.def.0.V14&wq=book&pvid=63d2ae0e390342b3bcccb32ceade7818-->
 </head>
 <body>
-    <!--网站导航 site-nav start-->
+    <!--<a style="display: block;background: red;"  href="https://search.jd.com/Search?keyword=book%E7%94%B5%E5%AD%90%E4%B9%A6&enc=utf-8&suggest=3.def.0.V14&wq=book&pvid=63d2ae0e390342b3bcccb32ceade7818" target="_blank"><div style="width: 100%;height: 100px;"></div></a>-->
+
+    <!--右边的toolbar 要排第一位才可以 占右边所有的height-->
+    <div id="global-toolbar-wrap">
+        <div class="toolbar-huiyuan" >
+            <i class="tab-ico"></i>
+            <em class="tab-text">京东会员</em>
+        </div>
+        <div class="toolbar-gouwuche" >
+            <i class="tab-ico"></i>
+            <em class="tab-text">购物车</em>
+        </div>
+        <div class="toolbar-aixing">
+            <i class="tab-ico"></i>
+            <em class="tab-text">我的关注</em>
+        </div>
+        <div class="toolbar-liulan">
+            <i class="tab-ico"></i>
+            <em class="tab-text">我的消息</em>
+        </div>
+        <div id="toolbar-erweima">
+            <i class="tab-ico"></i>
+            <em id="toolbar-erwerima-em" class="tab-text">
+                <div class="qrcode-container" style=""><p>去APP上探索你查找的商品~</p><img width="90" height="90" src="//qrimg.jd.com/http%3A%2F%2Fvs.m.jd.com%2Fappdau%2Findex.html%3Fkeyword%3Dbook%E7%94%B5%E5%AD%90%E4%B9%A6%26from%3Dpc_search-100-1-1-2.png"></div>
+            </em>
+        </div>
+        <div class="toolbar-upup">
+            <i class="tab-ico"></i>
+            <em class="tab-text">顶部</em>
+        </div>
+        <div class="toolbar-writedown">
+            <i class="tab-ico"></i>
+            <em class="tab-text">消息</em>
+        </div>
+    </div>
+    <!--右边的toolbar end -->
+
+    <!--网站导航 site-nav start 最上面的条条-->
     <div class="site-nav">
         <div class="w">
             <!--左侧：-->
@@ -380,27 +418,23 @@
                 </ul>
             </div>
         </div>
-        <div class="topsearch-fix-up" id="topsearch">
-            <div class="w clearfix">
-                <div class="search-log">
-                    <a href="https://global.jd.com/" title="Fake JinDong" target="_blank">京东商城</a>
-                </div>
-                <div class="search-input2">
-                    <input type="text" placeholder="书">
-                    <button>搜索</button>
-                </div>
+        <!--<div class="topsearch-fix-up" id="topsearch">-->
+            <!--<div class="w clearfix">-->
+                <!--<div class="search-log">-->
+                    <!--<a href="https://global.jd.com/" title="Fake JinDong" target="_blank">京东商城</a>-->
+                <!--</div>-->
+                <!--<div class="search-input2">-->
+                    <!--<input type="text" placeholder="书">-->
+                    <!--<button>搜索</button>-->
+                <!--</div>-->
 
-            </div>
-        </div>
+            <!--</div>-->
+        <!--</div>-->
 
     </div>
     <!--网站导航 site-nav over-->
 
-    <!--右边的toolbar-->
-    <div id="global-toolbar">
 
-    </div>
-    <!--右边的toolbar end -->
 
     <!--footer start-->
     <div class="footer">
