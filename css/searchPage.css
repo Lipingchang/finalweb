@@ -193,3 +193,65 @@
     display: block;
 }
 /*<!--网站的搜索栏 购物车 商标 end-->*/
+
+/*<!--网站的详细导航 start-->*/
+.site-main-nav {
+    padding-top: 10px;
+    height: 33px;
+    border-bottom: 2px solid #f30213;
+    background: white;
+}
+.categorys {
+    float: left;
+    position: relative;
+    z-index: 10;
+    width: 190px;
+    height: 33px;
+    line-height: 33px;
+    background: #f30213;
+    text-align: center;
+}
+.categorys a {
+    color: white;
+    font-size: 14px;
+}
+.navitems {
+    background: blue;
+}
+.navitems ul {
+    float: left;
+    width: max-content;
+}
+.navitems ul li{
+    float: left;
+    width: max-content;
+}
+.navitems ul li a{
+    height: 33px;
+    padding: 0 22px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 33px;
+    color: #333;
+    font-weight: 700;
+}
+.navitems .spacer{
+    position: static;
+    float: left;
+    width: 1px;
+    height: 13px;
+    margin: 10px 0;
+    background: #eee;
+    overflow: hidden;
+}
+.categorys:hover .shortcut-nav-menu-items{
+    visibility: visible;
+}
+.shortcut-nav-menu-items{
+    visibility: hidden;
+    background: white;
+}
+.shortcut-nav-menu-items a{
+    color: black;
+}
+/*<!--网站的详细导航 end-->*/
