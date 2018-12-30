@@ -134,3 +134,62 @@
 #toolbar-erwerima-em div p{
     margin-bottom: 10px;
 }
+/*<!--网站的搜索栏 购物车 商标 start-->*/
+.search-moreAlink b{
+    float: left;
+    margin:0 10px 10px 0px;
+    padding: 6px 0;
+    color: #999;
+}
+.search-input input {
+    width:500px;
+    margin-left: 0px;
+    border-color: #f30213;
+}
+.search-input button {
+    background: #f30213;
+}
+.search-moreAlink {
+    margin-left: 0px;
+    width: 710px;
+}
+.search-car {
+    margin-right:0px;
+}
+.search-log a {
+    background: url(../img/jdlogo-201708-@1x.png) no-repeat 0 0;
+}
+.search-car-dorpdown-layer {
+    display: none;
+    box-sizing: border-box;
+    position: absolute;
+    right: -1px;
+    width: 308px;
+    height: 75px;
+    top:35px;
+    background: #F9F9F9;
+    padding:10px 10px 10px 40px;
+    border: 1px solid #DFDFDF;
+}
+.search-car-dorpdown-layer b {
+    float: left;
+    width: 56px;
+    height: 49px;
+    background-image: url(../img/settleup-nogoods.png);
+}
+.nogoods {
+    line-height: 54px;
+}
+.spacer {
+    position: absolute;
+    top: -5px;
+    right: -1px;
+    width: 139px;
+    height: 10px;
+    background: #F9F9F9;
+    border-right: 1px solid #DFDFDF ;
+}
+.search-car:hover .search-car-dorpdown-layer{
+    display: block;
+}
+/*<!--网站的搜索栏 购物车 商标 end-->*/
