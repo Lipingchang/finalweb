@@ -1,7 +1,12 @@
 .w {
 
 }
-
+body {
+    background: white;
+}
+/*div {*/
+    /*background: white;*/
+/*}*/
 #global-toolbar-wrap {
     position: fixed;
     height:100%;
@@ -255,3 +260,152 @@
     color: black;
 }
 /*<!--网站的详细导航 end-->*/
+/*<!--结果 面包屑 start-->*/
+.result {
+    padding-top: 15px;
+    margin-bottom: 5px;
+    z-index: 6;
+    font: 12px/150% tahoma,arial,Microsoft YaHei,Hiragino Sans GB,"\u5b8b\u4f53",sans-serif;
+}
+.result a,.result p{
+    display: inline-block;
+    color: #666;
+    line-height: 24px;
+    font-size: 14px;
+}
+.result span{
+    margin-right: 5px;
+    font-family: "Helvetica Neue","Hiragino Sans GB",SimSun,serif;
+    line-height:10px;
+    font-size: 14px;
+}
+.result p{
+    font-weight: 900;
+}
+/*<!--结果 面包屑 end-->*/
+
+/*<!--搜索过滤器 start-->*/
+.search-filter-line {
+    line-height: 34px;
+    border-top: 1px solid #DDD;
+    background: #f3f3f3;
+}
+.search-filter-line:nth-child(3){
+    border-bottom: 1px solid #DDD;
+}
+.search-filter-line-title{
+    float: left;
+    width: 100px;
+    padding-left: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight:700;;
+}
+.search-filter-line-content {
+    float: right;
+    background: white;
+    width: 1080px;
+}
+.search-filter-line-content ul{
+    float: left;
+    padding-top: 10px;
+    padding-right: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    zoom: 1;
+    height: max-content;
+    margin-left: 10px;
+}
+.search-filter-line-content li{
+    box-sizing: border-box;
+    float: left;
+    width: 116px;
+    height: 48px;
+    padding: 0;
+    border: 1px solid #DDD;
+    margin: 0px -1px 0 0;
+    background: #FFF;
+    text-align: center;
+    z-index: 1;
+    overflow: hidden;
+}
+.search-filter-line-content li:hover {
+    position: relative;
+    z-index: 5;
+    border: 3px solid #e4393c;
+    box-shadow: 2px 2px 3px rgba(0,0,0,.12);
+}
+.search-filter-line-content li:hover img{
+    display: none;
+}
+.search-filter-line-content a{
+    line-height:45px;
+    color: blue;
+}
+.search-filter-line-content li:hover a{
+    color: red;;
+}
+.sl-ext {
+    float: right;
+    margin: 10px;
+}
+.sl-ext a {
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    width: 39px;
+    height: 23px;
+    line-height: 23px;
+    padding: 0 7px 0 4px;
+    background: #fff;
+    color: #333;
+    border: 1px solid #ddd;
+}
+.sl-ext a i {
+    position: absolute;
+    top: 2px;
+    right: 1px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url(//misc.360buyimg.com/product/search/1.0.7/css/i/search.ele.png) no-repeat ;
+    transition: background-position .15s ease-in-out;
+}
+.sl-ext a:nth-child(1) i{
+    background-position: 4px 6px;
+}
+.sl-ext a:nth-child(1):hover i{
+    /*border-color: #e4393c;*/
+    background-position: 4px -11px;
+}
+.sl-ext a:nth-child(2) i{
+    background-position: 5px -65px;
+}
+.sl-ext a:nth-child(2):hover i{
+    background-position: 5px -86px;
+}
+
+/*第二行：*/
+.search-filter-line:nth-child(2) .search-filter-line-content li{
+    float: left;
+    height: max-content;
+    line-height: 36px;
+    margin:0;
+    border:0;
+    text-align: left;
+    text-indent: 10px;
+}
+.search-filter-line:nth-child(2) .search-filter-line-content ul{
+    margin:0px;
+    padding:0px;
+}
+.search-filter-line:nth-child(2) a{
+    line-height: 12px;
+}
+.search-filter-line:nth-child(3) .sl-ext{
+    float: left;
+}
+.search-filter-line:nth-child(3) a{
+    width:100px;
+}
+/*<!--搜索过滤器 end-->*/
