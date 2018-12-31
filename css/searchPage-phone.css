@@ -1,0 +1,113 @@
+/*热卖推荐 这个大方框 start*/
+
+    /*整个方框的颜色*/
+.remaituijian .w {
+    position: relative;
+    height: 152px;
+    margin: 15px auto;
+    background-color: #f1f1f1;
+}
+    /*热卖推荐的头部的 书签一样挂下来的东西 title*/
+.remai-title{
+    width: 30px;
+    height: 60px;
+    position: absolute;
+    left: 20px;
+    top: 0;
+    line-height: 18px;
+    padding: 20px 10px 0 5px;
+    font-size: 14px;
+    text-align: center;
+    font-family: "microsoft yahei";
+    color: #f60;
+    background: url(//misc.360buyimg.com/product/list/1.0.7/css/i/list.icons.other.png) no-repeat;
+}
+
+    /*中间的3个手机*/
+.remai-body {
+    margin-left: 70px;
+}
+.remai-body>div>img{
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+.remai-body>div {
+    float: left;
+    width: 264px;
+    height: 100px;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-left: 7px;
+    margin-bottom: 15px;
+    padding: 11px;
+    background-color: #fff;
+}
+.remai-body>div>.pname {
+    margin: 10px 0px;
+    height: 30px;
+    overflow: hidden;
+}
+.remai-body .p-price strong{
+    float: left;
+    line-height: 20px;
+    font-size: 12px;
+}
+.remai-body .p-price {
+    margin: 5px 0;
+    padding:0;
+    height: max-content;
+}
+.remai-body button {
+    display: inline-block;
+    line-height: 14px;
+    height: 25px;
+    border-radius: 2px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #DDD;
+    padding: 4px 13px 5px;
+    color: #666;
+    background-color: #f7f7f7;
+}
+
+    /*右边的促销活动*/
+.remai-cuxiao {
+    float: right;
+    position: relative;
+}
+    /*右边的 促销的活动 的像书签一样挂下来的东西*/
+.remai-cuxiao-title {
+    width: 30px;
+    height: 60px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: 18px;
+    padding: 20px 10px 0 5px;
+    font-size: 14px;
+    text-align: center;
+    font-family: "microsoft yahei";
+    color: #f60;
+    background: url(//misc.360buyimg.com/product/list/1.0.7/css/i/list.icons.other.png) no-repeat;
+}
+.remai-cuxiao-detail {
+    margin-left: 50px;
+}
+.remai-cuxiao-detail ul {
+    margin-top:  15px;
+}
+.remai-cuxiao-detail li {
+    width: 165px;
+    height: 22px;
+    overflow: hidden;
+    line-height: 22px;
+    margin-bottom: 5px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: simsun;
+}
+
+/*热卖推荐 这个大方框 end*/
+
