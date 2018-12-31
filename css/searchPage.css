@@ -1071,3 +1071,67 @@ body {
         background-color: #f7f7f7;
     }
 /*<!--main 商品 列表 end-->*/
+
+
+/*<!--重新搜索 start-->*/
+    .bottom-search .w {
+        background: #F9F9F9;
+        border: 1px solid #DDD;
+        padding: 15px 0 20px 40px;
+        margin-bottom: 10px;
+    }
+    .re-search1 .doyouwant1 {
+        float: left;
+        line-height: 28px;
+    }
+    .re-search1 .doyouwant2 a {
+        float: left;
+        color: #005aa0;
+        line-height: 28px;
+    }
+    .re-search1 .doyouwant2 b {
+        float: left;
+        width: 20px;
+        font: 12px/28px "Helvetica Neue","Hiragino Sans GB",SimSun,serif;
+        color: #CCC;
+        text-align: center;
+    }
+    .re-search1 .doyouwant2 {
+        float: left;
+    }
+    .re-search2 {
+        padding-top: 15px;
+    }
+    .search-again-txt {
+        float: left;
+        width: 88px;
+        color: #333;
+    }
+    .search-again .input-txt{
+        vertical-align: top;
+        width: 400px;
+        height: 28px;
+        line-height: 28px;
+        font-size: 14px;
+        border: 1px solid #CCC;
+        padding: 3px;
+    }
+    .search-again .btn ,.search-again .btn:hover{
+        display: inline-block;
+        padding: 5px 15px 6px;
+        border-radius: 2px;
+        background-color: #E74649;
+        height: 25px;
+        line-height: 25px;
+        margin-left: 5px;
+        font-size: 14px;
+        font-weight: bolder;
+        width: 40px;
+        text-align: center;
+        color: white!important;
+    }
+    .search-again a:nth-child(3){
+        color: #005aa0;
+        margin-left: 20px;
+    }
+/*<!--重新搜索 end-->*/
