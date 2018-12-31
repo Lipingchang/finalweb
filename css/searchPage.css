@@ -980,4 +980,94 @@ body {
 
     }
 
+    /*翻页按钮*/
+    .main-page-list  .p-wrap{
+        float: right;
+    }
+    .main-page-list a.pn-prev,.main-page-list a.pn-next {
+        background: #fff;
+        display: inline-block;
+        float: left;
+        height: 36px;
+        line-height: 36px;
+        padding: 0 14px;
+        margin-right: 5px;
+        font-size: 14px;
+        color: #333;
+        border: 1px solid #ddd;
+    }
+    .main-page-list a.pn-prev i, .main-page-list a.pn-next i{
+        vertical-align: middle;
+        font-style: normal;
+        font-size: 16px;
+        font-family: "\5b8b\4f53";
+        padding: 0 5px;
+    }
+    .main-page-list a.disabled , .main-page-list a:hover.disabled {
+        color: #ccc!important;
+    }
+    .main-page-list {
+        margin-bottom: 50px;
+    }
+    .main-page-list a{
+        float: left;
+        color: #333;
+        border: 1px solid #ddd;
+        height: 36px;
+        line-height: 36px;
+        padding: 0 14px;
+        margin-right: 5px;
+        font-size: 14px;
+        background-color: #f7f7f7;
+    }
+    .main-page-list a.curr {
+        border: 0 none;
+        padding: 1px 15px;
+        background: 0 0;
+        filter: none;
+        color: #e4393c;
+        cursor: default;
+    }
+    
+    .main-page-list .p-wrap .p-num b {
+        float: left;
+        height: 36px;
+        line-height: 36px;
+        padding: 0 14px;
+        margin-right: 5px;
+        font-size: 14px;
+        color: #ccc;
+    }
+    .main-page-list .p-wrap em {
+        float: left;
+        line-height: 38px;
+        font-size: 14px;
+        margin-left: 10px;
+    }
+    .main-page-list input {
+        float: left;
+    }
+
+    .main-page-list .input-txt {
+        float: left;
+        width: 30px;
+        height: 30px;
+        margin: 0 3px;
+        line-height: 30px;
+        font-size: 14px;
+        text-align: center;
+        border: 1px solid #CCC;
+        padding: 3px;
+    }
+    .main-page-list .btn {
+        float: left;
+        height: 27px;
+        margin-left: 10px;
+        font-size: 14px;
+        line-height: 27px;
+        border: 1px solid #DDD;
+        padding: 4px 13px 5px;
+        color: #666;
+        background-color: #f7f7f7;
+    }
 /*<!--main 商品 列表 end-->*/
