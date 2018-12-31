@@ -1075,6 +1075,7 @@ body {
 
 /*<!--重新搜索 start-->*/
     .bottom-search .w {
+        box-sizing: border-box;
         background: #F9F9F9;
         border: 1px solid #DDD;
         padding: 15px 0 20px 40px;
@@ -1135,3 +1136,54 @@ body {
         margin-left: 20px;
     }
 /*<!--重新搜索 end-->*/
+
+/*<!--猜你喜欢 start-->*/
+.youlike .w {
+    box-sizing: border-box;
+    padding: 0 9px;
+    border: 1px solid #ddd;
+    border-top: 2px solid #999;
+    margin-bottom: 10px;
+}
+.youlike-title>span{
+    float: left;
+    font: 14px/30px "Helvetica Neue","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+}
+.youlike-title .huanyipi {
+    float: right;
+    color: #666;
+    margin: 10px;
+}
+.youlike-title .huanyipi i{
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    background: url(//misc.360buyimg.com/product/search/1.0.7/css/i/update.png) no-repeat;
+}
+.youlike .products {
+    padding-top: 15px;
+}
+.youlike .products li{
+    float: left;
+    width: 150px;
+    height: 216px;
+    margin: 0 8px 0 0;
+    padding: 0 18px 15px;
+    text-align: center;
+}
+.youlike .products li .p-review {
+    line-height: 20px;
+    color: #005ea7;
+}
+.youlike .products li .p-name {
+    margin: 0;
+}
+.youlike .products li .p-price {
+    display: block;
+    line-height: 20px;
+    color: #e3393c;
+    font-size: 12px;
+}
+/*<!--猜你喜欢 end-->*/
