@@ -111,3 +111,72 @@
 
 /*热卖推荐 这个大方框 end*/
 
+/*<!--手机通讯 面包屑 start-->*/
+.shoujitongxun-title {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "microsoft yahei";
+}
+.shoujitongxun-nav .w span {
+    line-height: 24px;
+    font-size: 12px;
+    font-family: "SimSun", "宋体";
+    margin: 0px 10px;
+}
+.shoujitongxun-nav {
+    margin: 10px 0;
+}
+.shoujitongxun-nav .w>div{
+    float: left;
+}
+.shoujitongxun-subtitle {
+    position: relative;
+    height: 22px;
+    padding: 0 4px 0 8px;
+    border: 1px solid #ddd;
+    line-height: 22px;
+    vertical-align: top;
+}
+.shoujitongxun-subtitle i{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: top;
+    background: url(//misc.360buyimg.com/product/list/1.0.7/css/i/search.ele.png) no-repeat 4px 7px;
+    transition: all .2s;
+}
+.shoujitongxun-subtitle:hover i{
+    background: url(//misc.360buyimg.com/product/list/1.0.7/css/i/search.ele.png) no-repeat 4px -44px;
+}
+.shoujitongxun-subtitle:hover ,.shoujitongxun-subtitle:hover .shoujitongxun-subtitle-hidden{
+    display: block;
+    border: 1px solid red;
+}
+.shoujitongxun-subtitle-hidden {
+    display: none;
+    background: white;
+    box-sizing: border-box;
+    position: absolute;
+    width: 355px;
+    height: max-content;
+    left: -1px;
+    top: 23px;
+    padding: 5px;
+}
+.shoujitongxun-subtitle-hidden div{
+    float: left;
+    width: 65px;
+    height: 24px;
+    margin: 0px 3px 0px 0px;
+}
+.shoujitongxun-subtitle:hover:after {
+    content: "";
+    position: absolute;
+    width:59px;
+    height:5px;
+    left:0px;
+    top: 22px;
+    display: block;
+    background: white;
+}
+/*<!--手机通讯 面包屑 end -->*/
