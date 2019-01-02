@@ -285,7 +285,7 @@ body {
 /*<!--结果 面包屑 end-->*/
 
 /*<!--搜索过滤器 start-->*/
-.search-filter-line {
+.search-filter-line2 {
     line-height: 34px;
     border-top: 1px solid #DDD;
     background: #f3f3f3;
@@ -305,6 +305,7 @@ body {
     float: right;
     background: white;
     width: 1080px;
+    margin-top:1px;
 }
 .search-filter-line-content ul{
     float: left;
@@ -386,7 +387,7 @@ body {
 }
 
 /*第二行：*/
-.search-filter-line:nth-child(2) .search-filter-line-content li{
+.search-filter-line2 .search-filter-line-content li{
     float: left;
     height: max-content;
     line-height: 36px;
@@ -394,25 +395,27 @@ body {
     border:0;
     text-align: left;
     text-indent: 10px;
+    margin-right: 10px;
 }
-.search-filter-line:nth-child(2) .search-filter-line-content ul{
+.search-filter-line2 .search-filter-line-content ul{
     margin:0px;
     padding:0px;
+    width:86%;
 }
-.search-filter-line:nth-child(2) a{
-    line-height: 12px;
+.search-filter-line2 a{
+    line-height: 24px;
 }
-.search-filter-line:nth-child(3) .sl-ext{
-    float: left;
+.search-filter-line2 .sl-ext{
+    float: right;
+    width: 130px;
 }
-.search-filter-line:nth-child(3) a{
-    width:100px;
+.search-filter-line2 a{
 }
 /*<!--搜索过滤器 end-->*/
 
 
 /*<!--main 商品 列表 start-->*/
-.main .w {
+.main>.w {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -525,11 +528,12 @@ body {
         margin: 2px;
     }
     .f-price input{
-        width: 52px;
+        width: 50px;
         height: 20px;
         border-color: #ccc;
         font-size: 14px;
         text-indent: 5px;
+        margin-left: 1px;
     }
     .f-price:hover .f-price-edit {
         display: block;
@@ -543,7 +547,7 @@ body {
         border: 1px solid #999;
         background: #fff;
         box-shadow: 1px 1px 2px rgba(0,0,0,.2);
-        z-index:0;
+        z-index:1;
         top:  -5px;
         right:10px;
     }
@@ -691,6 +695,10 @@ body {
     }
     .main-line-top2-right li a:hover i{
         border: 1px solid red;
+    }
+    .main-line-top2-right li a i.select {
+        border-color: #e4393c;
+        background-position: -1px -107px;
     }
     .main-line-top2-right li a i {
         display: inline-block;

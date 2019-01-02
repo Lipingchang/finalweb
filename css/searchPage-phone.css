@@ -180,3 +180,220 @@
     background: white;
 }
 /*<!--手机通讯 面包屑 end -->*/
+
+/*<!--搜索过滤器 start-->*/
+.不知道叫啥的title .w {
+    border-top:  1px solid #DDD;
+    /*border-bottom: 1px solid #DDD;*/
+    background: #F1F1F1;
+    line-height: 34px;
+    height: 34px;
+}
+.不知道叫啥的title .w h3 {
+    float: left;
+    padding-left: 10px;
+}
+.不知道叫啥的title .w h3 b{
+    color: #e4393c;
+    margin-right: 5px;
+}
+.不知道叫啥的title .w h3 em {
+    font-weight: 700;
+}
+.search-filter-line2,.search-filter-line {
+    background: white;
+}
+.search-filter-line-content ul {
+    margin-left: 0px;
+    float: left;
+    width:86%;
+}
+.search-filter-line-content li {
+    margin-top: -1px;
+}
+.search-filter-line2 .search-filter-line-content li {
+    width: max-content;
+}
+.search-filter-line2 .search-filter-line-content li a{
+    color: #000;
+}
+.search-filter-line2 .search-filter-line-content li:hover{
+    box-shadow: 2px 2px 3px rgba(0,0,0,0);
+}
+.search-filter-line-title p{
+    color: #999;
+    font-weight: 400;
+}
+.search-filter-line-content .sl-price {
+    float: left;
+    padding-left: 10px;
+}
+.search-filter-line-content .sl-price input {
+    width: 38px;
+    height: 17px;
+    padding: 1px;
+    border: 1px solid #ccc;
+}
+.search-filter-line-content .sl-price a {
+    display: inline-block;
+    margin-left: 5px;
+    padding: 2px 10px 3px;
+    line-height: 14px;
+    height: 14px;
+    border-radius: 2px;
+    background: #F7F7F7;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #DDD;
+    width: 30px;
+    color: #000;;
+}
+.search-filter-line-selectMore:hover button {
+    border: 1px solid red;
+    border-top: white;
+    color: red;
+    transition: all .4s;
+
+}
+.search-filter-line-selectMore:hover button i{
+    background-position: 4px -10px;
+    transition: all .1s;
+}
+.search-filter-line-selectMore:hover {
+    border-top: 1px solid red;
+    transition: all .4s;
+
+}
+.search-filter-line-selectMore {
+    height:40px;
+    border: 1px solid white;
+    border-top: 1px solid #dddddd;
+}
+.search-filter-line-selectMore button{
+    display: block;
+    margin: -1px auto;
+    border: 1px solid #dddddd;
+    border-top: white;
+    background: white;
+    position: relative;
+    cursor: pointer;
+    padding:5px 30px 5px 15px;
+}
+.search-filter-line-selectMore button i{
+    position: absolute;
+    right: 11px;
+    top: 4px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(//misc.360buyimg.com/product/list/1.0.7/css/i/search.ele.png) no-repeat 4px 7px;
+}
+
+.search-filter-lines-hidden {
+    display: none;
+}
+
+/*收起的盒子：*/
+.search-filter-line-anti-selectMore:hover button {
+    border: 1px solid red;
+    border-bottom: 2px solid white;
+    color: red;
+    transition: all .4s;
+}
+.search-filter-line-anti-selectMore:hover button i{
+    background-position: 4px -45px;
+    transition: all .1s;
+}
+.search-filter-line-anti-selectMore:hover {
+    border-bottom: 1px solid red;
+    transition: all .4s;
+}
+.search-filter-line-anti-selectMore {
+    height:40px;
+    border: 1px solid white;
+    border-bottom: 1px solid #dddddd;
+    position: relative;
+    display: none;
+}
+.search-filter-line-anti-selectMore button{
+    display: block;
+    margin: -1px auto;
+    border: 1px solid #dddddd;
+    border-bottom: white;
+    background: white;
+    position: relative;
+    padding:5px 30px 5px 15px;
+    bottom: -12px;
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+.search-filter-line-anti-selectMore button i{
+    position: absolute;
+    right: 8px;
+    top: 4px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(//misc.360buyimg.com/product/list/1.0.7/css/i/search.ele.png) no-repeat 4px -28px;
+}
+/*<!--搜索过滤器 end--f>*/
+
+/*广告start*/
+.this_is_a_ad_outer .w{
+    /*float: left;*/
+    /*height:0px;*/
+    /*margin:0;*/
+    /*width:0;*/
+}
+.this_is_a_ad {
+    float: left;
+    background: red;
+    width: 100px;
+    height:100px;
+    position: absolute;
+}
+/*广告end*/
+
+/*商品的缩略图 选择 start*/
+.main-list .agood .p-scroll .ps-prev{
+    float: left;
+}
+.main-list .agood .p-scroll .ps-next{
+    float: right;
+}
+.main-list .agood .p-scroll .ps-item {
+    box-sizing: border-box;
+    float: left;
+    /*width: 34px;*/
+    /*height: 29px;*/
+    padding:2px;
+    margin:1px;
+    margin-bottom: 2px;
+    text-align: left;
+}
+.main-list .ps-item {
+    cursor: default;
+    display: inline-block;
+    border: 1px solid #ddd;
+}
+.main-list .ps-item a {
+    display: block;
+}
+.p-scroll .ps-prev, .p-scroll .ps-next{
+    width: 15px;
+    height: 29px;
+    line-height: 29px;
+    text-align: center;
+    color: #aaa;
+    font-size: 16px;
+    font-family: "\5b8b\4f53";
+    cursor: pointer;
+}
+.p-scroll {
+    margin: 5px 0px;
+}
+.p-scroll .ps-item:hover {
+    border-width: 2px;
+    border-color: #e4393c;
+}
+/*商品的缩略图 选择 end*/
