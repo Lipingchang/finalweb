@@ -150,6 +150,7 @@
 
 .crumb-wrap {
     background: #f2f2f2;
+    margin-bottom: 15px;
 }
 .crumb-right {
     margin-top: 15px;
@@ -275,6 +276,79 @@
     top: -2px;
     position: relative;
 }
+
+    /*<!-- 头部商品购物栏 start -->*/
+            /*<!-- 左边的 大图片的轮播图 -->*/
+.preview-wrap {
+    width: 452px;
+    height: 568px;
+    background: red;
+    padding-bottom: 15px;
+    float: left;
+}
+.preview-wrap .preview {
+    width: 450px;
+    height: 450px;
+    background: black;
+    border: 1px solid #eee;
+    margin-bottom: 20px;
+}
+.preview-selecter {
+    width: 452px;
+    height: 58px;
+    background: blue;
+    margin-bottom: 18px;
+}
+.preview-info {
+    width: 452px;
+    height: 20px;
+    background: black;
+}
+
+            /*<!-- 右边的商品价格 和购买 -->*/
+.iteminfo-wrap>div{
+    float: right;
+    width: 730px;
+    margin-left: 15px;
+}
+.iteminfo-wrap .name{
+    font: 700 16px Arial,"microsoft yahei";
+    color: #666;
+    padding-top: 10px;
+    line-height: 28px;
+    margin-bottom: 5px;
+}
+.iteminfo-wrap .news {
+    color: #e4393c;
+    margin-bottom: 5px;
+}
+.iteminfo-wrap .news a{
+    text-decoration: underline;
+    color: #5e69ad;
+}
+.iteminfo-wrap .summary-first {
+    padding: 10px 0 0;
+    background: #f3f3f3;
+}
+
+.summary-first {
+}
+.summary-first .title{
+    line-height: 22px;
+    float: left;
+    padding-left: 10px;
+    font-family: simsun;
+    color: #999;
+}
+.summary-first .p-price {
+    float: left;
+}
+.summary-price .p-price{
+    margin: 0;
+    margin-top: -1px;
+}
+
+    /*<!-- 头部商品购物栏 end -->*/
 
 
 
