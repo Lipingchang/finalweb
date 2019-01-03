@@ -1,4 +1,235 @@
 .search-input button{
+    width:60px;
     margin:0;
     float: left;
+    background: #B61D1D;
+    padding: 0 8px;
+    font: 12px simsun;
+    overflow: visible;
+}
+.search-input input {
+    width: 400px;
+    border-color: #B61D1D;
+}
+.search-input button.bendian {
+    background: #474e5c;
+}
+
+.search-log {
+    width:190px;
+}
+.categorys-mini {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-right: 110px;
+}
+.categorys-mini .cw-icon {
+    color: #ccc;
+    position: relative;
+    width: 63px;
+    height: 25px;
+    border: 1px solid #ccc;
+    line-height: 25px;
+    z-index: 1;
+    background: #fff;
+    padding: 0 5px;
+    vertical-align: middle;
+    margin-top: 40px;
+}
+.categorys-mini .cw-icon a {
+    color: #666;
+    display: inline-block;
+    width: 70px;
+}
+.categorys-mini .cw-icon s {
+    position: relative;
+    top: -7px;
+}
+.categorys-mini .cw-icon i {
+    display: inline-block;
+    top: 9px;
+    right: 5px;
+    height: 7px;
+    font: 400 15px/15px consolas;
+    overflow: hidden;
+}
+.search-moreAlink>ul>li>a {
+    color: #666;
+}
+
+/*广告*/
+.shangpu-adv {
+    width:100%;
+    height:100px;
+}
+.shangpu-adv a{
+    display: block;
+    width:100%;
+    height: 100px;
+    color: #000;
+    background: url("../img/b69d9ca4bd6de187.jpg") center no-repeat;
+}
+/*广告*/
+
+.main-nav {
+    height: 40px;
+    width: 100%;
+    background: #1472CF;
+}
+.main-nav .w {
+    position: relative;
+}
+.main-nav ul {
+    height: 30px;
+    float: left;
+}
+.main-nav li {
+    margin: 5px 2px;
+    float: left;
+    line-height: 24px;
+    height: 24px;
+    padding: 2px 0;
+    border-radius: 12px;
+}
+.main-nav li:hover ,.main-nav li:hover a{
+    background-color: #333;
+    color: white !important;
+}
+.main-nav li a {
+    color: white;
+    position: relative;
+    z-index: 4;
+    display: block;
+    padding: 0 15px;
+    border-radius: 12px;
+}
+/*下三角*/
+.all_products_fenlei a span{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #666;
+}
+.all_products_fenlei:hover a span{
+    border-top: 0px;
+    border-left: 5px dashed transparent;
+    border-right: 5px dashed transparent;
+    border-bottom: 5px solid white;
+}
+.search-form {
+    float: right;
+    /*background: #000;*/
+    margin-top: 8px;
+}
+.search-form .search-body input{
+    padding-left: 10px;
+    width: 130px;
+    line-height: 22px;
+    height: 22px;
+    background-color: #ffffff;
+    color: #c9c9c9;
+    vertical-align: top;
+    border: solid 1px #e1e1e1;
+    border-top-left-radius: 11px;
+    border-bottom-left-radius: 11px;
+}
+.search-form .search-body button{
+    margin-left: -5px;
+    padding: 0 10px;
+    border: 0;
+    height: 24px;
+    width: 46px;
+    cursor: pointer;
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 11px;
+    background: #333 url(//img13.360buyimg.com/cms/jfs/t3121/284/4170076300/1201/43e1ad98/583543d4Nc7e0c1a4.png) no-repeat center;
+}
+
+.crumb-wrap {
+    background: #f2f2f2;
+}
+.crumb-right {
+    float: right;
+}
+.crumb-left {
+    float: left;
+    padding: 13px 0px 9px;
+}
+
+.crumb-left .item{
+    float: left;
+}
+.crumb-left .item a{
+    color: #666;
+    font-size: 12px;
+    line-height: 12px;
+}
+.crumb-left .item.sep {
+    font-family: simsun;
+    padding: 0 10px;
+}
+.crumb-left .item.box {
+    position: relative;
+    border: 1px solid #ccc;
+    height: 18px;
+    line-height:15px;
+    background-color: #fff;
+    margin-top: -4px;
+    padding:5px 30px 0px 5px;
+}
+.crumb-left .item.box span {
+    position: absolute;
+    background: red;
+    right:4px;
+    top: 8px;
+
+    vertical-align: middle;
+    width: 13px;
+    height: 7px;
+    margin: 0 10px 0 5px;
+    background: url(//static.360buyimg.com/item/unite/1.0.65/components/default/common/i/arr-close.png) no-repeat;
+    transition: .2s ease;
+}
+.crumb-left .item.ellipsis {
+    width: 120px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.crumb-right .item {
+    float: left;
+    margin-top: 15px;
+    margin-right: 12px;
+}
+.crumb-right .item a{
+    line-height: 12px;
+    color: #666;
+}
+
+/*进度条 背景*/
+.heart-white {
+    position: relative;
+    z-index:1;
+    display: inline-block;
+    overflow: hidden;
+    width: 74px;
+    height: 16px;
+    background: url(//static.360buyimg.com/item/unite/1.0.65/components/default/contact/i/grade-20170307.png) no-repeat 0 0;
+}
+/*进度条 进度*/
+.heart-up {
+    position: absolute;
+    z-index: 100;
+    display: inline-block;
+    width: 70px;
+    height: 16px;
+    background: url(//static.360buyimg.com/item/unite/1.0.65/components/default/contact/i/grade-20170307.png) no-repeat;
+    background-position: 0 -23px;
+}
+.stat {
+    background: #000;
 }
