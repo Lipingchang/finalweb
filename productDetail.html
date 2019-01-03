@@ -724,9 +724,365 @@
     </div> 
     <!-- 头部商品购物栏 end -->
 
+    <!--商品 滑动 列表 start -->
+    <div class="weini-tuijian clearfix">
+        <div class="w">
+            <div class="title clearfix">
+                <span>为你推荐</span>
+                <em><strong>1</strong>/2</em>
+            </div>
+
+
+            <div class="slide-content">
+                <!--控制左右滑动的btn-->
+                <div class="slide-content-btn">
+                    <a class="slide-content-btn-right" id="slide-content-btn-right"></a>
+                    <a class="slide-content-btn-left" id="slide-content-btn-left"></a>
+                </div>
+                <div class="slide-content-items">
+                    <ul id="slide-content-items" style="left: 0px;">
+
+                        <li class="product-list"><a href="#" class="product-wrap"><img src="./img/miaoshaproduct01.jpg" alt="" class="product-img">
+                            <p class="product-name">松下（Panasonic）国AA级减蓝光护眼台灯工作阅读旋钮开关调光调色儿童学生学习台灯HHLT0631致言系列</p>
+                            <p class="product-price"><span class="cur-price">￥398</span>
+                                <del class="del-price">￥799</del>
+                            </p>
+                        </a></li>
+                        <li class="product-list"><a href="#" class="product-wrap"><img src="./img/miaoshaproduct02.jpg" alt="" class="product-img">
+                            <p class="product-name">【自营精选】【加绒加厚】南极人休闲裤男2018冬季加绒加厚时尚修身弹力长裤 NJR621R加绒款黑色 31码</p>
+                            <p class="product-price"><span class="cur-price">￥69</span>
+                                <del class="del-price">￥119</del>
+                            </p>
+                        </a></li>
+                        <li class="product-list"><a href="#" class="product-wrap"><img src="./img/miaoshaproduct03.jpg" alt="" class="product-img">
+                            <p class="product-name">DZDIV 遥控车 越野车儿童玩具大型遥控汽车模型耐摔配电池可充电3030 红色</p>
+                            <p class="product-price"><span class="cur-price">￥189</span>
+                                <del class="del-price">￥438</del>
+                            </p>
+                        </a></li>
+                        <li class="product-list"><a href="#" class="product-wrap"><img src="./img/miaoshaproduct04.jpg" alt="" class="product-img">
+                            <p class="product-name">INTERIGHT 白鸭绒女超轻羽绒服 黑色 M码</p>
+                            <p class="product-price"><span class="cur-price">￥188</span>
+                                <del class="del-price">￥999</del>
+                            </p>
+                        </a></li>
+                        <li class="product-list"><a href="#" class="product-wrap"><img src="./img/miaoshaproduct05.jpg" alt="" class="product-img">
+                            <p class="product-name">【保险套装版】K1 OPPO首款千元屏幕指纹手机 6G+64G 摩卡红 全网通 移动联通电信4G 双卡双待手机</p>
+                            <p class="product-price"><span class="cur-price">￥1799</span>
+                                <del class="del-price">￥1949</del>
+                            </p>
+                        </a></li>
+                        <li class="product-list"><a href="#" class="product-wrap"><img src="./img/miaoshaproduct05.jpg" alt="" class="product-img">
+                            <p class="product-name">【保险套装版】K1 OPPO首款千元屏幕指纹手机 6G+64G 摩卡红 全网通 移动联通电信4G 双卡双待手机</p>
+                            <p class="product-price"><span class="cur-price">￥1799</span>
+                                <del class="del-price">￥1949</del>
+                            </p>
+                        </a></li>
+                        <li class="product-list"><a href="#" class="product-wrap"><img src="./img/miaoshaproduct05.jpg" alt="" class="product-img">
+                            <p class="product-name">【保险套装版】K1 OPPO首款千元屏幕指纹手机 6G+64G 摩卡红 全网通 移动联通电信4G 双卡双待手机</p>
+                            <p class="product-price"><span class="cur-price">￥1799</span>
+                                <del class="del-price">￥1949</del>
+                            </p>
+                        </a></li>
+                        <li class="product-list"><a href="#" class="product-wrap"><img src="./img/miaoshaproduct05.jpg" alt="" class="product-img">
+                            <p class="product-name">【保险套装版】K1 OPPO首款千元屏幕指纹手机 6G+64G 摩卡红 全网通 移动联通电信4G 双卡双待手机</p>
+                            <p class="product-price"><span class="cur-price">￥1799</span>
+                                <del class="del-price">￥1949</del>
+                            </p>
+                        </a></li>
+                        <li class="product-list"><a href="#" class="product-wrap"><img src="./img/miaoshaproduct05.jpg" alt="" class="product-img">
+                            <p class="product-name">【保险套装版】K1 OPPO首款千元屏幕指纹手机 6G+64G 摩卡红 全网通 移动联通电信4G 双卡双待手机</p>
+                            <p class="product-price"><span class="cur-price">￥1799</span>
+                                <del class="del-price">￥1949</del>
+                            </p>
+                        </a></li>
+                        <li class="product-list"><a href="#" class="product-wrap"><img src="./img/miaoshaproduct05.jpg" alt="" class="product-img">
+                            <p class="product-name">【保险套装版】K1 OPPO首款千元屏幕指纹手机 6G+64G 摩卡红 全网通 移动联通电信4G 双卡双待手机</p>
+                            <p class="product-price"><span class="cur-price">￥1799</span>
+                                <del class="del-price">￥1949</del>
+                            </p>
+                        </a></li>
+
+                        <!--(li.product-list>a.product-wrap[href=#]>(img.product-img[src=./img/miaoshaproduct$$]+p.product-name+p.product-price>(span.cur-price+del.del-price)))*5-->
+                    </ul>
 
 
 
 
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!--商品 滑动 列表 end -->
+
+
+ <!--商品页面-->
+    <div class="main-content w clearfix">
+        <div class="aside clearfix">
+            <!--店铺的介绍栏目-->
+            <div class="dianpu-info">
+                <div class="title">
+                    <a>中国移动收集官方旗舰</a>
+                    <i></i>
+                </div>
+                <div class="info-content clearfix">
+                    <div class="score-info">
+                        9.58
+                    </div>
+                    <div class="score-parts">
+                        <div class="score-part">
+                            <span>商品评价</span>
+                            <span>9.66</span>
+                            <i></i>
+                        </div>
+                        <div class="score-part">
+                            <span>服务态度</span>
+                            <span>9.0</span>
+                            <i></i>
+                        </div>
+                        <div class="score-part">
+                            <span>物流速度</span>
+                            <span>9.22</span>
+                            <i></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="btns clearfix">
+                    <a href="#" >
+                        <i class="sprite-enter"></i>
+                        <span>进店逛逛</span>
+                    </a>
+                    <a href="#">
+                        <i class="sprite-follow"></i>
+                        <span>关注店铺</span>
+                    </a>
+                </div>
+            </div>
+            <!--店内搜索栏目-->
+            <div class="diannei-search dianpu-info">
+                <div class="title">
+                    <a>店内搜索</a>
+                    <i></i>
+                </div>
+                <div class="info-content clearfix">
+                    <div>
+                        <span>关键字：</span>
+                        <input type="text" class="guanjianzi">
+                    </div>
+                    <div>
+                        <span>价格：</span>
+                        <input type="text">
+                        <em>到</em>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <span></span>
+                        <button>搜索</button>
+                    </div>
+
+                </div>
+            </div>
+            <!--店铺里面的 商品 种类列表-->
+            <div class="zhonglei-liebiao">
+
+            </div>
+        </div>
+        <div class="main ">
+            <div class="main-title clearfix">
+                <ul>
+                    <li class="curr"><a href="#">商品介绍</a></li>
+                    <li><a href="#">规格与包装</a></li>
+                    <li><a href="#">售后保障</a></li>
+                    <li><a href="#">商品评价(200+)</a></li>
+                    <li><a href="#">手机社区</a></li>
+                </ul>
+                <button>加入购物车</button>
+            </div>
+            <div class="main-content">
+                <div class="canshu">
+                    <ul class="clearfix">
+                        <li class="fore0">
+                            <i class="phone"></i>
+                            <p>分辨率：其他</p>
+                        </li>
+                        <li class="fore1">
+                            <i class="carmera"></i>
+                            <p>后置摄像头：1200万像素</p>
+                            <p>前置摄像头：800万像素</p>
+                        </li>
+                        <li class="fore2">
+                            <i class="cpu"></i>
+                            <p>核&nbsp;&nbsp;数：其他</p>
+                            <p>频&nbsp;&nbsp;率：以官网信息为准</p>
+                        </li>
+                    </ul>
+                    <div class="xiangxi-canshu">
+                        <div class="title">
+                            <p>品牌： <a>三星（SAMSUNG）</a></p>
+                        </div>
+                        <ul class="clearfix">
+                            <li>商品名称：三星（SAMSUNG） note8 移动4G+手机 谜夜黑 6G+64G（送罗马仕移动电源）</li>
+                            <li>商品编号：34759435995</li>
+                            <li>店铺： 中国移动手机官方旗舰店</li>
+                            <li>商品毛重：200.00g</li>
+                            <li>系统：安卓（Android）</li>
+                            <li>前置摄像头像素：800万-1599万</li>
+                            <li>多卡支持：双卡双待单4G</li>
+                            <li>电池容量：3000mAh-3999mAh</li>
+                            <li>网络制式：4G LTE 移动LTE-TDD4G LTE</li>
+                            <li>网络特性：移动4G+</li>
+                        </ul>
+                    </div> 
+                </div>
+                <div class="pictures">
+                    <img src="img/b628ce0eaece0696.jpg" alt="">
+                    <img src="img/ac82ac5e6eef0e2d.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+ <!--footer start-->
+ <div class="footer">
+     <!--宣传语 多仓直发....-->
+     <div class="footer-top">
+         <div class="footer-top-slogen w">
+                <span class="footer-top-slogen-icon footer-top-slogen-icon1">
+                    品类齐全，轻松购物
+                </span>
+                <span class="footer-top-slogen-icon footer-top-slogen-icon2">
+                    多仓直发，极速配送
+                </span>
+                <span class="footer-top-slogen-icon footer-top-slogen-icon3">
+                    正品行货，精致服务
+                </span>
+                <span class="footer-top-slogen-icon footer-top-slogen-icon4">
+                    天天低价，畅选无忧
+                </span>
+         </div>
+         <div class="footer-top-shopping clearfix">
+             <div class="w">
+                 <dl>
+                     <dt>购物指南</dt>
+                     <dd><a href="">购物流程</a></dd>
+                     <dd><a href="">会员介绍</a></dd>
+                     <dd><a href="">生活旅行/团购</a></dd>
+                     <dd><a href="">常见问题</a></dd>
+                     <dd><a href="">大家电</a></dd>
+                     <dd><a href="">联系客服</a></dd>
+                 </dl>
+                 <dl>
+                     <dt>配送方式</dt>
+                     <dd><a href="">上门自提</a></dd>
+                     <dd><a href="">211限时达</a></dd>
+                     <dd><a href="">配送服务查询</a></dd>
+                     <dd><a href="">配送费收取标准</a></dd>
+                     <dd><a href="">海外配送</a></dd>
+                 </dl>
+                 <dl>
+                     <dt>支付方式</dt>
+                     <dd><a href="">货到付款</a></dd>
+                     <dd><a href="">在线支付</a></dd>
+                     <dd><a href="">分期付款</a></dd>
+                     <dd><a href="">邮局汇款</a></dd>
+                     <dd><a href="">公司转账</a></dd>
+                 </dl>
+                 <dl>
+                     <dt>售后服务</dt>
+                     <dd><a href="">售后政策</a></dd>
+                     <dd><a href="">价格保护</a></dd>
+                     <dd><a href="">退款说明</a></dd>
+                     <dd><a href="">返修/退换货</a></dd>
+                     <dd><a href="">取消订单</a></dd>
+                 </dl>
+                 <dl>
+                     <dt>特色服务</dt>
+                     <dd><a href="">夺宝岛</a></dd>
+                     <dd><a href="">DIY装机</a></dd>
+                     <dd><a href="">延保服务</a></dd>
+                     <dd><a href="">京东E卡</a></dd>
+                     <dd><a href="">京东通信</a></dd>
+                     <dd><a href="">京东JD+</a></dd>
+                 </dl>
+             </div>
+         </div>
+     </div>
+
+     <!--网页指南-->
+     <div class="footer-bottom">
+         <div class="footer-bottom-links">
+             <div class="">
+                 <p>
+                     <a href="#">关于我们</a> <span class="copyright_split">|</span>
+                     <a href="#">联系我们</a> <span class="copyright_split">|</span>
+                     <a href="#">联系客服</a> <span class="copyright_split">|</span>
+                     <a href="#">合作招商</a> <span class="copyright_split">|</span>
+                     <a href="#">商家帮助</a> <span class="copyright_split">|</span>
+                     <a href="#">营销中心</a> <span class="copyright_split">|</span>
+                     <a href="#">手机京东</a> <span class="copyright_split">|</span>
+                     <a href="#">友情链接</a> <span class="copyright_split">|</span>
+                     <a href="#">销售联盟</a> <span class="copyright_split">|</span>
+                     <a href="#">京东社区</a> <span class="copyright_split">|</span>
+                     <a href="#">风险监测</a> <span class="copyright_split">|</span>
+                     <a href="#">隐私政策</a> <span class="copyright_split">|</span>
+                     <a href="#">京东公益</a> <span class="copyright_split">|</span>
+                     <a href="#">English Site</a><span class="copyright_split">|</span>
+                     <a href="#">Media & IR </a>
+                 </p>
+             </div>
+         </div>
+         <div class="footer-bottom-copyright">
+             <div class="footer-bottom-copyright-info w">
+                 <p>
+                     <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000088">京公网安备 11000002000088号</a>
+                     <span class="copyright_split">|</span>
+                     京ICP证070359号
+                     <span class="copyright_split">|</span>
+                     <a href="https://img14.360buyimg.com/da/jfs/t256/349/769670066/270505/3b03e0bb/53f16c24N7c04d9e9.jpg">互联网药品信息服务资格证编号(京)-经营性-2014-0008</a>
+                     <span class="copyright_split">|</span>
+                     新出发京零 字第大120007号
+                 </p>
+                 <p>
+                     互联网出版许可证编号新出网证(京)字150号
+                     <span class="copyright_split">|</span>
+                     出版物经营许可证
+                     <span class="copyright_split">|</span>
+                     网络文化经营许可证京网文[2014]2148-348号
+                     <span class="copyright_split">|</span>
+                     违法和不良信息举报电话：4006561155
+                 </p>
+                 <p>
+                     Copyright © 2004 - 2018 京东JD.com 版权所有
+                     <span class="copyright_split">|</span>消费者维权热线：4006067733 经营证照 <span class="copyright_split">|</span>
+                     (京)网械平台备字(2018)第00003号 <span class="copyright_split">|</span> 营业执照
+                 </p>
+                 <p>
+                     <a href="#"> <i class="global-flag-icon-1"></i> Global Site </a> <span class="copyright_split">|</span>
+                     <a href="#"> <i class="global-flag-icon-2"></i> Каталог товаров </a> <span class="copyright_split">|</span>
+                     <a href="#"> <i class="global-flag-icon-3"></i> Móviles y Accesorios </a> <span class="copyright_split">|</span>
+                     <a href="#"> <i class="global-flag-icon-4"></i> Situs Indonesia </a> <span class="copyright_split">|</span>
+                     <a href="#"> <i class="global-flag-icon-5"></i> ขายสินค้ากับ </a>
+                 </p>
+                 <p>
+                     京东旗下网站：
+                     <a href="#" >京东钱包 </a><span class="copyright_split">|</span>
+                     <a href="#" >京东云</a>
+                 </p>
+             </div>
+         </div>
+         <div class="footer-bottom-img w">
+             <!--网络警察之类的东西-->
+             <a class="copyright_auth_ico copyright_auth_ico_2" href="https://ss.knet.cn/verifyseal.dll?sn=2008070300100000031&amp;ct=df&amp;pa=294005" target="_blank">可信网站信用评估</a>
+             <a class="copyright_auth_ico copyright_auth_ico_3" href="http://www.cyberpolice.cn/" target="_blank">网络警察提醒你</a>
+             <a class="copyright_auth_ico copyright_auth_ico_4" href="https://search.szfw.org/cert/l/CX20120111001803001836" target="_blank">诚信网站</a>
+             <a class="copyright_auth_ico copyright_auth_ico_5" href="http://www.12377.cn" target="_blank">中国互联网举报中心</a>
+             <a class="copyright_auth_ico copyright_auth_ico_6" href="http://www.12377.cn/node_548446.htm" target="_blank">网络举报APP下载</a>
+         </div>
+     </div>
+ </div>
+ <!--footer end-->
 </body>
 </html>

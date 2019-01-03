@@ -702,4 +702,276 @@
 .right-btns {
     float: right;
 }
+.slide-content {
+    width:100%;
+}
+.slide-content-btn .slide-content-btn-right{
+    width: 20px;
+    height: 32px;
+    background-image: url(//static.360buyimg.com/item/unite/1.0.65/components/default/similar/i/__sprite.png);
+    background-position: -22px 0;
+    background-color: white;
+}
+.slide-content-btn .slide-content-btn-left{
+    width: 20px;
+    height: 32px;
+    background-image: url(//static.360buyimg.com/item/unite/1.0.65/components/default/similar/i/__sprite.png);
+    background-position: 0px 0;
+    background-color: white;
+}
+.weini-tuijian .title{
+    padding: 10px;
+    background-color: #f7f7f7;
+    border: 1px solid #eee;
+}
+.weini-tuijian .title span{
+    float: left;
+    display: inline-block;
+    width:max-content;
+    font: 700 14px "microsoft yahei";
+    line-height: 14px;
+}
+.weini-tuijian em{
+    float: right;
+}
 
+
+
+/*<!--商品页面-->*/
+.main-content {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.main-content .aside{
+    width: 200px;
+    /*height:100px;*/
+    /*border: 1px solid #000;*/
+    float: left;
+}
+.main-content .main {
+    float: right;
+    width: 990px;
+    /*border: 1px solid #000;*/
+}
+
+.dianpu-info .title {
+    background-color: #f7f7f7;
+    border: 1px solid #eee;
+    padding:5px 10px;
+}
+.dianpu-info {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+.dianpu-info .title a{
+    font: 700 14px "microsoft yahei";
+    color: #666;
+}
+.dianpu-info .title i{
+    margin-top: 3px;
+    float: right;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(//static.360buyimg.com/item/unite/1.0.65/components/default/popbox/i/__sprite.png);
+    background-position: 0 -34px;
+    vertical-align: text-top;
+}
+
+.dianpu-info  .score-info {
+    float: left;
+    text-align: center;
+    font-size: 24px;
+    line-height: 45px;
+    color: #E94634;
+    display: block;
+    margin: 20px 0px 0px 20px;
+}
+.dianpu-info .score-parts i{
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    background-image: url(//static.360buyimg.com/item/unite/1.0.65/components/default/popbox/i/__sprite.png);
+    background-position: -35px -34px;
+}
+.dianpu-info .score-parts {
+    float: right;
+    width: 100px;
+    margin: 10px 0;
+}
+.dianpu-info .score-parts .score-part{
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.dianpu-info .btns{
+    padding: 10px 0;
+    text-align: center;
+    border-top: 1px solid #eee;
+    margin: 0px 5px;
+}
+.dianpu-info .btns a{
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+    color: #666;
+    width: 88px;
+    height: 34px;
+    line-height: 34px;
+    padding:0;
+    font-size: 12px;
+}
+
+
+/*<!--商品页面 end-->*/
+
+.diannei-search .info-content {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.diannei-search .info-content div{
+    padding: 2px 10px;
+    /*border: 1px solid #000;*/
+    width:max-content;
+    /*margin: 0 auto;*/
+}
+.diannei-search .info-content input {
+    border: 1px solid #ccc;
+    padding: 2px;
+}
+.diannei-search .info-content input{
+    width:50px;
+}
+.diannei-search .info-content input.guanjianzi {
+    width:110px;
+}
+.diannei-search .info-content span {
+    display: inline-block;
+    width:50px;
+}
+.diannei-search .info-content button{
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    background: #fff;
+    color: #000;
+    padding: 3px 10px;
+    border-radius: 3px;
+}
+
+.main .main-title {
+    position: relative;
+    border-bottom: 1px solid #e4393c;
+    background: #f7f7f7;
+}
+.main .main-title ul{
+    float: left;
+}
+.main .main-title button{
+    float: right;;
+}
+
+.main .main-title li{
+    float: left;
+    position: relative;
+    display: inline-block;
+    font-family: "microsoft yahei";
+    cursor: pointer;
+    padding: 10px 25px;
+    font-size: 14px;
+}
+.main .main-title li:hover,
+.main .main-title li.curr
+{
+    background: #e4393c;
+}
+.main .main-title li:hover a,
+.main .main-title li.curr a
+{
+    color: white !important;
+}
+.main .main-title button{
+    position: absolute;
+    border: 1px solid #ebebeb;
+    color: #ccc;
+    background-color: #f7f7f7;
+    cursor: not-allowed;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 16px;
+    bottom:0px;
+    right:0px;
+    margin-right:10px;;
+}
+
+
+/*手机参数*/
+i.phone {
+    float: left;
+    width: 33px;
+    height: 31px;
+    overflow: hidden;
+    line-height: 1000px;
+    margin-top: 2px;
+    margin-left: -37px;
+    background: url(//static.360buyimg.com/item/unite/1.0.65/components/default/detail/i/param1.png) no-repeat 0 0 ;
+}
+i.carmera {
+    float: left;
+    width: 33px;
+    height: 33px;
+    overflow: hidden;
+    line-height: 1000px;
+    margin-top: 2px;
+    margin-left: -37px;
+    background: url(//static.360buyimg.com/item/unite/1.0.65/components/default/detail/i/param2.png) no-repeat 0 0;
+}
+i.cpu {
+    float: left;
+    width: 33px;
+    height: 33px;
+    overflow: hidden;
+    line-height: 1000px;
+    margin-top: 2px;
+    margin-left: -37px;
+    background: url(//static.360buyimg.com/item/unite/1.0.65/components/default/detail/i/param3.png) no-repeat;
+}
+.main-content .canshu li{
+    float: left;
+    padding-left: 42px;
+    float: left;
+    margin-bottom: 5px;
+    width: 200px;
+    padding-bottom: 10px;
+}
+.main-content .canshu p{
+    margin-left: 5px;
+}
+
+.xiangxi-canshu {
+    border-bottom: 1px solid #ccc;
+}
+.xiangxi-canshu .title{
+    padding-left: 42px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+.xiangxi-canshu .title a{
+    color: #5e69ad;
+}
+.xiangxi-canshu ul {
+    padding: 20px 0 15px;
+}
+.xiangxi-canshu ul li{
+    width: 200px;
+    padding-left: 42px;
+    float: left;
+    margin-bottom: 5px;
+    white-space: nowrap; /*不换行*/
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.main-content .pictures {
+    margin-top: 15px;
+}
