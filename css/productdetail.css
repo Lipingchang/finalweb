@@ -152,6 +152,7 @@
     background: #f2f2f2;
 }
 .crumb-right {
+    margin-top: 15px;
     float: right;
 }
 .crumb-left {
@@ -202,7 +203,7 @@
 
 .crumb-right .item {
     float: left;
-    margin-top: 15px;
+    /*margin-top: 15px;*/
     margin-right: 12px;
 }
 .crumb-right .item a{
@@ -230,6 +231,50 @@
     background: url(//static.360buyimg.com/item/unite/1.0.65/components/default/contact/i/grade-20170307.png) no-repeat;
     background-position: 0 -23px;
 }
-.stat {
-    background: #000;
+.star {
+    margin-top:  -3px;
 }
+.item.pop-score{
+    /*width: 200px;*/
+}
+.item.pop-score .star {
+    display: inline-block;
+}
+.item.pop-score .number.up {
+    vertical-align: top;
+}
+.item.pop-score .upup{
+    display: inline-block;
+    margin-left: 3px;
+    width: 9px;
+    height: 9px;
+    background-image: url(//static.360buyimg.com/item/unite/1.0.65/components/default/contact/i/__sprite.png);
+    background-position: -50px -18px;
+    position: relative;
+    top: -3px;
+}
+.item.kefu .sprite-im {
+    display: inline-block;
+    background-image: url(//static.360buyimg.com/item/unite/1.0.65/components/default/contact/i/__sprite.png);
+    height: 16px;
+    width: 16px;
+    background-position: -34px -16px;
+    vertical-align: text-top;
+}
+.item.guanzhu .sprite-follow{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-position: -34px 0;
+    background-image: url(//static.360buyimg.com/item/unite/1.0.65/components/default/contact/i/__sprite.png);
+}
+.item.kefu>div>span,.item.guanzhu>div>span {
+    vertical-align: top;
+}
+.sprite-follow {
+    top: -2px;
+    position: relative;
+}
+
+
+
