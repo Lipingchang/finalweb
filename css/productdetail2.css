@@ -1,0 +1,105 @@
+.askandAnswer .title div p{
+    font: 700 14px "microsoft yahei";
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+.askandAnswer .title{
+    background-color: #f7f7f7;
+    border: 1px solid #eee;
+    position: relative;
+}
+.askandAnswer .title i {
+    display: inline-block;
+    width: 123px;
+    height: 67px;
+    margin-top: 8px;
+    margin-left: 280px;
+    vertical-align: middle;
+    margin-right: 15px;
+    background: url(//static.360buyimg.com/item/unite/1.0.65/components/default/askAnswer/i/icon-dog.png) no-repeat;
+}
+.askandAnswer .title p{
+    display: inline-block;
+}
+.askandAnswer .title button{
+    display: inline-block;
+    line-height: 26px;
+    margin-left: 12px;
+    vertical-align: middle;
+    color: rgb(228, 57, 60);
+    padding: 0px 18px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(228, 57, 60);
+    border-radius: 13px;
+}
+
+.wenda_log{
+    padding:18px 0px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+.wenda_log .wen p{
+    float: left;
+    color: rgb(51, 51, 51);
+    width: 870px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 10px;
+}
+.wenda_log .wen span {
+    float: right;
+    color: rgb(153, 153, 153);
+}
+.wenda_log .da{
+    margin-top: 10px;
+    margin-bottom:30px;
+}
+.wenda_log .da p{
+    font-weight:400;
+}
+.wenda_log .wen:before{
+    content: '问';
+    background: rgb(255, 153, 17);
+    width: 18px;
+    height: 18px;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    float: left;
+    border-radius: 9px;
+    margin: 2px;
+}
+.wenda_log .da:before{
+    content: '答';
+    background: rgb(153, 187, 17);    width: 18px;
+    height: 18px;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    float: left;
+    border-radius: 9px;
+    margin: 2px;
+}
+.wenda_log>a{
+    color: rgb(0, 94, 167);
+    display: inline-block;
+    margin-left: 30px;
+}
+.tips {
+    padding-top: 10px;
+}
+.tips i{
+    width: 12px;
+    height: 16px;
+    background-image: url(//static.360buyimg.com/item/unite/1.0.65/components/default/askAnswer/i/__sprite.png);
+    float: left;
+    margin-top: 2px;
+    background-position: -16px -48px;
+}
+.tips p{
+    margin-left: 20px;
+}
+.pagelist {
+
+}
