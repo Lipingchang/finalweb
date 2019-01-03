@@ -308,7 +308,7 @@
             /*<!-- 右边的商品价格 和购买 -->*/
 .iteminfo-wrap>div{
     float: right;
-    width: 730px;
+    width: 700px;
     margin-left: 15px;
 }
 .iteminfo-wrap .name{
@@ -344,9 +344,69 @@
     float: left;
 }
 .summary-price .p-price{
-    margin: 0;
-    margin-top: -1px;
+    margin: -10px 0px 0px 20px;
 }
+.summary-price .p-price span:nth-child(1){
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 1px;
+}
+.summary-price .p-price span:nth-child(2){
+    font-size: 26px;
+}
+
+.summary-price a{
+    display: inline-block;
+    margin-top: 2px;
+    color: #005aa0;
+    margin-left: 20px;
+}
+.cuxiao {
+    margin-bottom: 5px;
+}
+.cuxiao>div{
+    float: left;
+}
+.cuxiao .body {
+    margin: 1px 0px 0px 20px;
+}
+.cuxiao .body em {
+    display: inline-block;
+    color: #df3033;
+    background: 0 0;
+    border: 1px solid #df3033;
+    padding: 2px 3px;
+    margin-right: 5px;
+    line-height: 16px;
+}
+.cuxiao .gift-list {
+    margin-left: 10px;
+}
+.cuxiao .gift-list span {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 12px;
+    font-family: arial;
+    color: #e4393c;
+}
+.cuxiao .gift-list em {
+    color: #999;
+}
+.gift-list.list2 em,.gift-list.list2 a{
+    color: #666;
+    line-height:27px;
+    font-family: simsun;
+}
+.iteminfo-wrap {
+    float: right;
+    position: relative;
+}
+.leijipingjia {
+    position: absolute;
+    background: #000;
+    width:10px;
+}
+
 
     /*<!-- 头部商品购物栏 end -->*/
 
