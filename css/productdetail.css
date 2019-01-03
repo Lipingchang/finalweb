@@ -282,27 +282,23 @@
 .preview-wrap {
     width: 452px;
     height: 568px;
-    background: red;
     padding-bottom: 15px;
     float: left;
 }
 .preview-wrap .preview {
     width: 450px;
     height: 450px;
-    background: black;
     border: 1px solid #eee;
     margin-bottom: 20px;
 }
 .preview-selecter {
     width: 452px;
     height: 58px;
-    background: blue;
     margin-bottom: 18px;
 }
 .preview-info {
     width: 452px;
     height: 20px;
-    background: black;
 }
 
             /*<!-- 右边的商品价格 和购买 -->*/
@@ -429,7 +425,7 @@
     line-height: 32px;
 }
 .summary-support div:nth-child(2),
-.summary-area div:nth-child(2),
+.summary-area div:nth-child(2)
 /*.summary-area */
 {
     position: relative;
@@ -594,7 +590,7 @@
     line-height: 46px;
     padding: 0 26px;
     font-size: 18px;
-    font-family: "microsoft yahei"
+    font-family: "microsoft yahei";
     font-weight: 700;
 }
 .summary-tips {
@@ -618,7 +614,10 @@
 
 
 /*左边的大图轮播*/
-.preview img{
+.preview {
+    position: relative;
+}
+.preview i{
     width: 30px;
     height: 30px;
     display: block;
@@ -626,5 +625,81 @@
     right: 0;
     bottom: 0;
     background: url(//static.360buyimg.com/item/unite/1.0.65/components/default/preview/i/sprite-magnify.png) no-repeat;
+}
+.preview-selecter div{
+    float: left;
+}
+.preview-wrap div.preview-selecter-goleft{
+    margin-top: 15px;
+    width: 22px;
+    height: 32px;
+    background-image: url(//static.360buyimg.com/item/unite/1.0.65/components/default/preview/i/__sprite.png);
+    background-position: 0 -54px;
+}
+.preview-wrap div.preview-selecter-goright{
+    float: right;
+    margin-top: 15px;
+    width: 22px;
+    height: 32px;
+    background-image: url(//static.360buyimg.com/item/unite/1.0.65/components/default/preview/i/__sprite.png);
+    background-position: -78px 0;
+}
+.preview-wrap.preview-selecter ul img {
+    display: inline-block;
+    width: 54px;
+    height: 54px;
+}
+.preview-selecter li{
+    border: 2px solid white;
+}
+.preview-selecter li:hover{
+    border: 2px solid #e53e41;
+}
+.preview-selecter ul{
+    float: left;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 380px;
+    margin: 0 auto;
+}
+
+.sprite-follow-sku {
+    display: inline-block;
+    width: 14px;
+    height: 13px;
+    background-image: url(//static.360buyimg.com/item/unite/1.0.65/components/default/preview/i/__sprite.png);
+    background-position: -44px -40px;
+}
+.sprite-share {
+    display: inline-block;
+    width: 15px;
+    height: 14px;
+    background-image: url(//static.360buyimg.com/item/unite/1.0.65/components/default/preview/i/__sprite.png);
+    background-position: -45px -24px;
+}
+.sprite-compare {
+    display: inline-block;
+    width: 15px;
+    height: 16px;
+    background-image: url(//static.360buyimg.com/item/unite/1.0.65/components/default/preview/i/__sprite.png);
+    background-position: -30px -24px;
+}
+.preview-info a {
+    color: #666;
+    line-height:10px;
+}
+.preview-info a em,.preview-info a i{
+    float: left;
+    margin: 0 5px;
+}
+.preview-info a em {
+    margin-top: 3px;
+}
+.left-btns {
+    float: left;
+}
+.right-btns {
+    float: right;
 }
 
